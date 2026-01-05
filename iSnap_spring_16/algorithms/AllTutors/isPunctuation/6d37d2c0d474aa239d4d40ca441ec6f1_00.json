@@ -1,0 +1,104 @@
+{
+    "children": {"body": {
+        "children": {
+            "0": {
+                "children": {"names": {
+                    "children": {"0": {
+                        "children": {"asname": {"type": "null"}},
+                        "childrenOrder": ["asname"],
+                        "type": "alias",
+                        "value": "string"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "list"
+                }},
+                "childrenOrder": ["names"],
+                "type": "Import"
+            },
+            "1": {
+                "children": {
+                    "args": {
+                        "children": {
+                            "args": {
+                                "children": {"0": {
+                                    "children": {"annotation": {"type": "null"}},
+                                    "childrenOrder": ["annotation"],
+                                    "type": "arg",
+                                    "value": "x"
+                                }},
+                                "childrenOrder": ["0"],
+                                "type": "list"
+                            },
+                            "kwonlyargs": {"type": "list"},
+                            "kwarg": {"type": "null"},
+                            "kw_defaults": {"type": "list"},
+                            "defaults": {"type": "list"},
+                            "vararg": {"type": "null"}
+                        },
+                        "childrenOrder": [
+                            "args",
+                            "vararg",
+                            "kwonlyargs",
+                            "kw_defaults",
+                            "kwarg",
+                            "defaults"
+                        ],
+                        "type": "arguments"
+                    },
+                    "decorator_list": {"type": "list"},
+                    "returns": {"type": "null"},
+                    "body": {
+                        "children": {"0": {
+                            "children": {"value": {
+                                "children": {
+                                    "ops": {
+                                        "children": {"0": {"type": "In"}},
+                                        "childrenOrder": ["0"],
+                                        "type": "list"
+                                    },
+                                    "left": {
+                                        "children": {"ctx": {"type": "Load"}},
+                                        "childrenOrder": ["ctx"],
+                                        "type": "Name",
+                                        "value": "x"
+                                    },
+                                    "comparators": {
+                                        "children": {"0": {"type": "null"}},
+                                        "childrenOrder": ["0"],
+                                        "type": "list"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "left",
+                                    "ops",
+                                    "comparators"
+                                ],
+                                "type": "Compare"
+                            }},
+                            "childrenOrder": ["value"],
+                            "type": "Return"
+                        }},
+                        "childrenOrder": ["0"],
+                        "type": "list"
+                    }
+                },
+                "childrenOrder": [
+                    "args",
+                    "body",
+                    "decorator_list",
+                    "returns"
+                ],
+                "type": "FunctionDef",
+                "value": "isPunctuation"
+            }
+        },
+        "childrenOrder": [
+            "0",
+            "1"
+        ],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 3,
+    "type": "Module"
+}

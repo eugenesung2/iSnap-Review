@@ -1,0 +1,153 @@
+{
+    "children": {"0": {
+        "children": {
+            "0": {
+                "children": {"0": {
+                    "children": {"0": {
+                        "children": {"0": {
+                            "id": "GEN_4",
+                            "type": "null"
+                        }},
+                        "childrenOrder": ["0"],
+                        "id": "GEN_3",
+                        "type": "alias",
+                        "value": "string"
+                    }},
+                    "childrenOrder": ["0"],
+                    "id": "GEN_2",
+                    "type": "list"
+                }},
+                "childrenOrder": ["0"],
+                "id": "GEN_1",
+                "type": "Import"
+            },
+            "1": {
+                "children": {
+                    "0": {
+                        "children": {
+                            "0": {
+                                "children": {"0": {
+                                    "children": {"0": {
+                                        "id": "GEN_9",
+                                        "type": "null"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "id": "GEN_8",
+                                    "type": "arg",
+                                    "value": "x"
+                                }},
+                                "childrenOrder": ["0"],
+                                "id": "GEN_7",
+                                "type": "list"
+                            },
+                            "1": {
+                                "id": "GEN_10",
+                                "type": "null"
+                            },
+                            "2": {
+                                "id": "GEN_11",
+                                "type": "list"
+                            },
+                            "3": {
+                                "id": "GEN_12",
+                                "type": "list"
+                            },
+                            "4": {
+                                "id": "GEN_13",
+                                "type": "null"
+                            },
+                            "5": {
+                                "id": "GEN_14",
+                                "type": "list"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                        ],
+                        "id": "GEN_6",
+                        "type": "arguments"
+                    },
+                    "1": {
+                        "children": {"0": {
+                            "children": {"0": {
+                                "children": {
+                                    "0": {
+                                        "children": {"0": {"type": "Load"}},
+                                        "childrenOrder": ["0"],
+                                        "id": "GEN_18",
+                                        "type": "Str",
+                                        "value": "x"
+                                    },
+                                    "1": {
+                                        "children": {"0": {
+                                            "id": "GEN_20",
+                                            "type": "In"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "id": "GEN_19",
+                                        "type": "list"
+                                    },
+                                    "2": {
+                                        "children": {"0": {
+                                            "id": "GEN_22",
+                                            "type": "Str",
+                                            "value": "x"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "id": "GEN_21",
+                                        "type": "list"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1",
+                                    "2"
+                                ],
+                                "id": "GEN_17",
+                                "type": "Compare"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "GEN_16",
+                            "type": "Return"
+                        }},
+                        "childrenOrder": ["0"],
+                        "id": "GEN_15",
+                        "type": "list"
+                    },
+                    "2": {
+                        "id": "GEN_23",
+                        "type": "list"
+                    },
+                    "3": {
+                        "id": "GEN_24",
+                        "type": "null"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "id": "GEN_5",
+                "type": "FunctionDef",
+                "value": "isPunctuation"
+            }
+        },
+        "childrenOrder": [
+            "0",
+            "1"
+        ],
+        "id": "GEN_0",
+        "type": "list"
+    }},
+    "childrenOrder": ["0"],
+    "weight": 1,
+    "id": "dee240861ef57a7f756d320ca9d6d5f2",
+    "type": "Module"
+}

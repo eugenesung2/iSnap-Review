@@ -1,0 +1,27 @@
+{
+    "children": {"body": {
+        "children": {
+            "0": {
+                "children": {"value": {
+                    "type": "Str",
+                    "value": "helloWorld"
+                }},
+                "childrenOrder": ["value"],
+                "type": "Expr"
+            },
+            "1": {
+                "children": {"0": {"type": "null"}},
+                "childrenOrder": ["0"],
+                "type": "Return"
+            }
+        },
+        "childrenOrder": [
+            "0",
+            "1"
+        ],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 1,
+    "type": "Module"
+}

@@ -1,0 +1,23 @@
+{
+    "children": {"body": {
+        "children": {"0": {
+            "children": {"names": {
+                "children": {"0": {
+                    "children": {"asname": {"type": "null"}},
+                    "childrenOrder": ["asname"],
+                    "type": "alias",
+                    "value": "string"
+                }},
+                "childrenOrder": ["0"],
+                "type": "list"
+            }},
+            "childrenOrder": ["names"],
+            "type": "Import"
+        }},
+        "childrenOrder": ["0"],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 1,
+    "type": "Module"
+}

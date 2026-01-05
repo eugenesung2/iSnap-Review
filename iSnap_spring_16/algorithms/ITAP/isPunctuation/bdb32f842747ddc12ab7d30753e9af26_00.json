@@ -1,0 +1,152 @@
+{
+    "children": {"body": {
+        "children": {
+            "0": {
+                "children": {"names": {
+                    "children": {"0": {
+                        "children": {"asname": {"type": "null"}},
+                        "childrenOrder": ["asname"],
+                        "type": "alias",
+                        "value": "string"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "list"
+                }},
+                "childrenOrder": ["names"],
+                "type": "Import"
+            },
+            "1": {
+                "children": {
+                    "args": {
+                        "children": {
+                            "args": {
+                                "children": {"0": {
+                                    "children": {"annotation": {"type": "null"}},
+                                    "childrenOrder": ["annotation"],
+                                    "type": "arg",
+                                    "value": "a"
+                                }},
+                                "childrenOrder": ["0"],
+                                "type": "list"
+                            },
+                            "kwonlyargs": {"type": "list"},
+                            "kwarg": {"type": "null"},
+                            "kw_defaults": {"type": "list"},
+                            "defaults": {"type": "list"},
+                            "vararg": {"type": "null"}
+                        },
+                        "childrenOrder": [
+                            "args",
+                            "vararg",
+                            "kwonlyargs",
+                            "kw_defaults",
+                            "kwarg",
+                            "defaults"
+                        ],
+                        "type": "arguments"
+                    },
+                    "decorator_list": {"type": "list"},
+                    "returns": {"type": "null"},
+                    "body": {
+                        "children": {
+                            "0": {
+                                "children": {
+                                    "orelse": {"type": "list"},
+                                    "test": {
+                                        "children": {
+                                            "ops": {
+                                                "children": {"0": {"type": "In"}},
+                                                "childrenOrder": ["0"],
+                                                "type": "list"
+                                            },
+                                            "left": {
+                                                "children": {"ctx": {"type": "Load"}},
+                                                "childrenOrder": ["ctx"],
+                                                "type": "Name",
+                                                "value": "a"
+                                            },
+                                            "comparators": {
+                                                "children": {"0": {
+                                                    "children": {
+                                                        "ctx": {"type": "Load"},
+                                                        "value": {
+                                                            "children": {"ctx": {"type": "Load"}},
+                                                            "childrenOrder": ["ctx"],
+                                                            "type": "Name",
+                                                            "value": "string"
+                                                        }
+                                                    },
+                                                    "childrenOrder": [
+                                                        "value",
+                                                        "ctx"
+                                                    ],
+                                                    "type": "Attribute",
+                                                    "value": "punctuation"
+                                                }},
+                                                "childrenOrder": ["0"],
+                                                "type": "list"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "left",
+                                            "ops",
+                                            "comparators"
+                                        ],
+                                        "type": "Compare"
+                                    },
+                                    "body": {
+                                        "children": {"0": {
+                                            "children": {"value": {
+                                                "type": "NameConstant",
+                                                "value": "False"
+                                            }},
+                                            "childrenOrder": ["value"],
+                                            "type": "Return"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "type": "list"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "test",
+                                    "body",
+                                    "orelse"
+                                ],
+                                "type": "If"
+                            },
+                            "1": {
+                                "children": {"value": {
+                                    "type": "NameConstant",
+                                    "value": "True"
+                                }},
+                                "childrenOrder": ["value"],
+                                "type": "Return"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "type": "list"
+                    }
+                },
+                "childrenOrder": [
+                    "args",
+                    "body",
+                    "decorator_list",
+                    "returns"
+                ],
+                "type": "FunctionDef",
+                "value": "isPunctuation"
+            }
+        },
+        "childrenOrder": [
+            "0",
+            "1"
+        ],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 1,
+    "type": "Module"
+}

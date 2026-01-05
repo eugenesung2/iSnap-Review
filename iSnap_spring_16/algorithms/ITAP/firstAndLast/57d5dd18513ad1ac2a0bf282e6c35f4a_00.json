@@ -1,0 +1,252 @@
+{
+    "children": {"body": {
+        "children": {"0": {
+            "children": {
+                "args": {
+                    "children": {
+                        "args": {
+                            "children": {"0": {
+                                "children": {"annotation": {"type": "null"}},
+                                "childrenOrder": ["annotation"],
+                                "type": "arg",
+                                "value": "s"
+                            }},
+                            "childrenOrder": ["0"],
+                            "type": "list"
+                        },
+                        "kwonlyargs": {"type": "list"},
+                        "kwarg": {"type": "null"},
+                        "kw_defaults": {"type": "list"},
+                        "defaults": {"type": "list"},
+                        "vararg": {"type": "null"}
+                    },
+                    "childrenOrder": [
+                        "args",
+                        "vararg",
+                        "kwonlyargs",
+                        "kw_defaults",
+                        "kwarg",
+                        "defaults"
+                    ],
+                    "type": "arguments"
+                },
+                "decorator_list": {"type": "list"},
+                "returns": {"type": "null"},
+                "body": {
+                    "children": {"0": {
+                        "children": {
+                            "orelse": {"type": "list"},
+                            "iter": {
+                                "children": {
+                                    "args": {
+                                        "children": {
+                                            "0": {
+                                                "type": "Num",
+                                                "value": "0"
+                                            },
+                                            "1": {
+                                                "children": {
+                                                    "op": {"type": "Sub"},
+                                                    "left": {
+                                                        "children": {
+                                                            "args": {
+                                                                "children": {"0": {
+                                                                    "children": {"ctx": {"type": "Load"}},
+                                                                    "childrenOrder": ["ctx"],
+                                                                    "type": "Name",
+                                                                    "value": "s"
+                                                                }},
+                                                                "childrenOrder": ["0"],
+                                                                "type": "list"
+                                                            },
+                                                            "func": {
+                                                                "children": {"ctx": {"type": "Load"}},
+                                                                "childrenOrder": ["ctx"],
+                                                                "type": "Name",
+                                                                "value": "len"
+                                                            },
+                                                            "keywords": {"type": "list"}
+                                                        },
+                                                        "childrenOrder": [
+                                                            "func",
+                                                            "args",
+                                                            "keywords"
+                                                        ],
+                                                        "type": "Call"
+                                                    },
+                                                    "right": {
+                                                        "type": "Num",
+                                                        "value": "1"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "left",
+                                                    "op",
+                                                    "right"
+                                                ],
+                                                "type": "BinOp"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "type": "list"
+                                    },
+                                    "func": {
+                                        "children": {"ctx": {"type": "Load"}},
+                                        "childrenOrder": ["ctx"],
+                                        "type": "Name",
+                                        "value": "range"
+                                    },
+                                    "keywords": {"type": "list"}
+                                },
+                                "childrenOrder": [
+                                    "func",
+                                    "args",
+                                    "keywords"
+                                ],
+                                "type": "Call"
+                            },
+                            "body": {
+                                "children": {"0": {
+                                    "children": {"value": {
+                                        "children": {
+                                            "op": {"type": "Add"},
+                                            "left": {
+                                                "children": {
+                                                    "slice": {
+                                                        "children": {"value": {
+                                                            "type": "Num",
+                                                            "value": "0"
+                                                        }},
+                                                        "childrenOrder": ["value"],
+                                                        "type": "Index"
+                                                    },
+                                                    "ctx": {"type": "Load"},
+                                                    "value": {
+                                                        "children": {"ctx": {"type": "Load"}},
+                                                        "childrenOrder": ["ctx"],
+                                                        "type": "Name",
+                                                        "value": "s"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "value",
+                                                    "slice",
+                                                    "ctx"
+                                                ],
+                                                "type": "Subscript"
+                                            },
+                                            "right": {
+                                                "children": {
+                                                    "slice": {
+                                                        "children": {"value": {
+                                                            "children": {
+                                                                "op": {"type": "Sub"},
+                                                                "left": {
+                                                                    "children": {
+                                                                        "args": {
+                                                                            "children": {"0": {
+                                                                                "children": {"ctx": {"type": "Load"}},
+                                                                                "childrenOrder": ["ctx"],
+                                                                                "type": "Name",
+                                                                                "value": "s"
+                                                                            }},
+                                                                            "childrenOrder": ["0"],
+                                                                            "type": "list"
+                                                                        },
+                                                                        "func": {
+                                                                            "children": {"ctx": {"type": "Load"}},
+                                                                            "childrenOrder": ["ctx"],
+                                                                            "type": "Name",
+                                                                            "value": "len"
+                                                                        },
+                                                                        "keywords": {"type": "list"}
+                                                                    },
+                                                                    "childrenOrder": [
+                                                                        "func",
+                                                                        "args",
+                                                                        "keywords"
+                                                                    ],
+                                                                    "type": "Call"
+                                                                },
+                                                                "right": {
+                                                                    "type": "Num",
+                                                                    "value": "1"
+                                                                }
+                                                            },
+                                                            "childrenOrder": [
+                                                                "left",
+                                                                "op",
+                                                                "right"
+                                                            ],
+                                                            "type": "BinOp"
+                                                        }},
+                                                        "childrenOrder": ["value"],
+                                                        "type": "Index"
+                                                    },
+                                                    "ctx": {"type": "Load"},
+                                                    "value": {
+                                                        "children": {"ctx": {"type": "Load"}},
+                                                        "childrenOrder": ["ctx"],
+                                                        "type": "Name",
+                                                        "value": "n"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "value",
+                                                    "slice",
+                                                    "ctx"
+                                                ],
+                                                "type": "Subscript"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "left",
+                                            "op",
+                                            "right"
+                                        ],
+                                        "type": "BinOp"
+                                    }},
+                                    "childrenOrder": ["value"],
+                                    "type": "Return"
+                                }},
+                                "childrenOrder": ["0"],
+                                "type": "list"
+                            },
+                            "target": {
+                                "children": {"ctx": {"type": "Store"}},
+                                "childrenOrder": ["ctx"],
+                                "type": "Name",
+                                "value": "n"
+                            }
+                        },
+                        "childrenOrder": [
+                            "target",
+                            "iter",
+                            "body",
+                            "orelse"
+                        ],
+                        "type": "For"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "list"
+                }
+            },
+            "childrenOrder": [
+                "args",
+                "body",
+                "decorator_list",
+                "returns"
+            ],
+            "type": "FunctionDef",
+            "value": "firstAndLast"
+        }},
+        "childrenOrder": ["0"],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 1,
+    "type": "Module"
+}

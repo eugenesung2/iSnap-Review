@@ -1,0 +1,287 @@
+{
+    "children": {"body": {
+        "children": {
+            "0": {
+                "children": {"names": {
+                    "children": {"0": {
+                        "children": {"asname": {"type": "null"}},
+                        "childrenOrder": ["asname"],
+                        "type": "alias",
+                        "value": "string"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "list"
+                }},
+                "childrenOrder": ["names"],
+                "type": "Import"
+            },
+            "1": {
+                "children": {
+                    "args": {
+                        "children": {
+                            "args": {
+                                "children": {"0": {
+                                    "children": {"annotation": {"type": "null"}},
+                                    "childrenOrder": ["annotation"],
+                                    "type": "arg",
+                                    "value": "string"
+                                }},
+                                "childrenOrder": ["0"],
+                                "type": "list"
+                            },
+                            "kwonlyargs": {"type": "list"},
+                            "kwarg": {"type": "null"},
+                            "kw_defaults": {"type": "list"},
+                            "defaults": {"type": "list"},
+                            "vararg": {"type": "null"}
+                        },
+                        "childrenOrder": [
+                            "args",
+                            "vararg",
+                            "kwonlyargs",
+                            "kw_defaults",
+                            "kwarg",
+                            "defaults"
+                        ],
+                        "type": "arguments"
+                    },
+                    "decorator_list": {"type": "list"},
+                    "returns": {"type": "null"},
+                    "body": {
+                        "children": {
+                            "0": {
+                                "children": {
+                                    "targets": {
+                                        "children": {"0": {
+                                            "children": {"ctx": {"type": "Store"}},
+                                            "childrenOrder": ["ctx"],
+                                            "type": "Name",
+                                            "value": "l"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "type": "list"
+                                    },
+                                    "value": {
+                                        "children": {
+                                            "args": {
+                                                "children": {"0": {
+                                                    "children": {"ctx": {"type": "Load"}},
+                                                    "childrenOrder": ["ctx"],
+                                                    "type": "Name",
+                                                    "value": "string"
+                                                }},
+                                                "childrenOrder": ["0"],
+                                                "type": "list"
+                                            },
+                                            "func": {
+                                                "children": {"ctx": {"type": "Load"}},
+                                                "childrenOrder": ["ctx"],
+                                                "type": "Name",
+                                                "value": "list"
+                                            },
+                                            "keywords": {"type": "list"}
+                                        },
+                                        "childrenOrder": [
+                                            "func",
+                                            "args",
+                                            "keywords"
+                                        ],
+                                        "type": "Call"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "targets",
+                                    "value"
+                                ],
+                                "type": "Assign"
+                            },
+                            "1": {
+                                "children": {
+                                    "orelse": {"type": "list"},
+                                    "iter": {
+                                        "children": {
+                                            "args": {
+                                                "children": {"0": {
+                                                    "children": {
+                                                        "args": {
+                                                            "children": {"0": {
+                                                                "children": {"ctx": {"type": "Load"}},
+                                                                "childrenOrder": ["ctx"],
+                                                                "type": "Name",
+                                                                "value": "l"
+                                                            }},
+                                                            "childrenOrder": ["0"],
+                                                            "type": "list"
+                                                        },
+                                                        "func": {
+                                                            "children": {"ctx": {"type": "Load"}},
+                                                            "childrenOrder": ["ctx"],
+                                                            "type": "Name",
+                                                            "value": "len"
+                                                        },
+                                                        "keywords": {"type": "list"}
+                                                    },
+                                                    "childrenOrder": [
+                                                        "func",
+                                                        "args",
+                                                        "keywords"
+                                                    ],
+                                                    "type": "Call"
+                                                }},
+                                                "childrenOrder": ["0"],
+                                                "type": "list"
+                                            },
+                                            "func": {
+                                                "children": {"ctx": {"type": "Load"}},
+                                                "childrenOrder": ["ctx"],
+                                                "type": "Name",
+                                                "value": "range"
+                                            },
+                                            "keywords": {"type": "list"}
+                                        },
+                                        "childrenOrder": [
+                                            "func",
+                                            "args",
+                                            "keywords"
+                                        ],
+                                        "type": "Call"
+                                    },
+                                    "body": {
+                                        "children": {"0": {
+                                            "children": {
+                                                "orelse": {"type": "list"},
+                                                "test": {
+                                                    "children": {
+                                                        "ops": {
+                                                            "children": {"0": {"type": "In"}},
+                                                            "childrenOrder": ["0"],
+                                                            "type": "list"
+                                                        },
+                                                        "left": {
+                                                            "children": {
+                                                                "slice": {
+                                                                    "children": {"value": {
+                                                                        "children": {"ctx": {"type": "Load"}},
+                                                                        "childrenOrder": ["ctx"],
+                                                                        "type": "Name",
+                                                                        "value": "i"
+                                                                    }},
+                                                                    "childrenOrder": ["value"],
+                                                                    "type": "Index"
+                                                                },
+                                                                "ctx": {"type": "Load"},
+                                                                "value": {
+                                                                    "children": {"ctx": {"type": "Load"}},
+                                                                    "childrenOrder": ["ctx"],
+                                                                    "type": "Name",
+                                                                    "value": "l"
+                                                                }
+                                                            },
+                                                            "childrenOrder": [
+                                                                "value",
+                                                                "slice",
+                                                                "ctx"
+                                                            ],
+                                                            "type": "Subscript"
+                                                        },
+                                                        "comparators": {
+                                                            "children": {"0": {
+                                                                "children": {
+                                                                    "ctx": {"type": "Load"},
+                                                                    "value": {
+                                                                        "children": {"ctx": {"type": "Load"}},
+                                                                        "childrenOrder": ["ctx"],
+                                                                        "type": "Name",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "childrenOrder": [
+                                                                    "value",
+                                                                    "ctx"
+                                                                ],
+                                                                "type": "Attribute",
+                                                                "value": "punctuation"
+                                                            }},
+                                                            "childrenOrder": ["0"],
+                                                            "type": "list"
+                                                        }
+                                                    },
+                                                    "childrenOrder": [
+                                                        "left",
+                                                        "ops",
+                                                        "comparators"
+                                                    ],
+                                                    "type": "Compare"
+                                                },
+                                                "body": {
+                                                    "children": {"0": {
+                                                        "children": {"0": {"type": "null"}},
+                                                        "childrenOrder": ["0"],
+                                                        "type": "Return"
+                                                    }},
+                                                    "childrenOrder": ["0"],
+                                                    "type": "list"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "test",
+                                                "body",
+                                                "orelse"
+                                            ],
+                                            "type": "If"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "type": "list"
+                                    },
+                                    "target": {
+                                        "children": {"ctx": {"type": "Store"}},
+                                        "childrenOrder": ["ctx"],
+                                        "type": "Name",
+                                        "value": "i"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "target",
+                                    "iter",
+                                    "body",
+                                    "orelse"
+                                ],
+                                "type": "For"
+                            },
+                            "2": {
+                                "children": {"value": {
+                                    "type": "Str",
+                                    "value": "[all the stuff]"
+                                }},
+                                "childrenOrder": ["value"],
+                                "type": "Return"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1",
+                            "2"
+                        ],
+                        "type": "list"
+                    }
+                },
+                "childrenOrder": [
+                    "args",
+                    "body",
+                    "decorator_list",
+                    "returns"
+                ],
+                "type": "FunctionDef",
+                "value": "isPunctuation"
+            }
+        },
+        "childrenOrder": [
+            "0",
+            "1"
+        ],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 3,
+    "type": "Module"
+}

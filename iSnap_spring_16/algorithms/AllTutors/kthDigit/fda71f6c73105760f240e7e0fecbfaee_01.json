@@ -1,0 +1,140 @@
+{
+    "children": {"body": {
+        "children": {"0": {
+            "children": {
+                "args": {
+                    "children": {
+                        "args": {
+                            "children": {
+                                "0": {
+                                    "children": {"annotation": {"type": "null"}},
+                                    "childrenOrder": ["annotation"],
+                                    "type": "arg",
+                                    "value": "x"
+                                },
+                                "1": {
+                                    "children": {"annotation": {"type": "null"}},
+                                    "childrenOrder": ["annotation"],
+                                    "type": "arg",
+                                    "value": "k"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "type": "list"
+                        },
+                        "kwonlyargs": {"type": "list"},
+                        "kwarg": {"type": "null"},
+                        "kw_defaults": {"type": "list"},
+                        "defaults": {"type": "list"},
+                        "vararg": {"type": "null"}
+                    },
+                    "childrenOrder": [
+                        "args",
+                        "vararg",
+                        "kwonlyargs",
+                        "kw_defaults",
+                        "kwarg",
+                        "defaults"
+                    ],
+                    "type": "arguments"
+                },
+                "decorator_list": {"type": "list"},
+                "returns": {"type": "null"},
+                "body": {
+                    "children": {"0": {
+                        "children": {"value": {
+                            "children": {
+                                "op": {"type": "Sub"},
+                                "left": {
+                                    "children": {
+                                        "op": {"type": "Mod"},
+                                        "left": {
+                                            "children": {"ctx": {"type": "Load"}},
+                                            "childrenOrder": ["ctx"],
+                                            "type": "Name",
+                                            "value": "x"
+                                        },
+                                        "right": {
+                                            "children": {
+                                                "op": {"type": "Pow"},
+                                                "left": {
+                                                    "type": "Num",
+                                                    "value": "10"
+                                                },
+                                                "right": {
+                                                    "children": {"ctx": {"type": "Load"}},
+                                                    "childrenOrder": ["ctx"],
+                                                    "type": "Name",
+                                                    "value": "k"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "left",
+                                                "op",
+                                                "right"
+                                            ],
+                                            "type": "BinOp"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "left",
+                                        "op",
+                                        "right"
+                                    ],
+                                    "type": "BinOp"
+                                },
+                                "right": {
+                                    "children": {
+                                        "op": {"type": "Pow"},
+                                        "left": {
+                                            "type": "Num",
+                                            "value": "10"
+                                        },
+                                        "right": {
+                                            "children": {"ctx": {"type": "Load"}},
+                                            "childrenOrder": ["ctx"],
+                                            "type": "Name",
+                                            "value": "k"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "left",
+                                        "op",
+                                        "right"
+                                    ],
+                                    "type": "BinOp"
+                                }
+                            },
+                            "childrenOrder": [
+                                "left",
+                                "op",
+                                "right"
+                            ],
+                            "type": "BinOp"
+                        }},
+                        "childrenOrder": ["value"],
+                        "type": "Return"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "list"
+                }
+            },
+            "childrenOrder": [
+                "args",
+                "body",
+                "decorator_list",
+                "returns"
+            ],
+            "type": "FunctionDef",
+            "value": "kthDigit"
+        }},
+        "childrenOrder": ["0"],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 1,
+    "type": "Module"
+}

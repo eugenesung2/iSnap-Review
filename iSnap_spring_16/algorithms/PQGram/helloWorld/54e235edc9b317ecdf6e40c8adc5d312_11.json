@@ -1,0 +1,51 @@
+{
+    "children": {"0": {
+        "children": {"0": {
+            "children": {"0": {
+                "children": {
+                    "0": {
+                        "children": {"0": {
+                            "id": "GEN_4",
+                            "type": "Load"
+                        }},
+                        "childrenOrder": ["0"],
+                        "id": "GEN_3",
+                        "type": "Name",
+                        "value": "print"
+                    },
+                    "1": {
+                        "children": {"0": {
+                            "id": "GEN_6",
+                            "type": "Str",
+                            "value": "Hello World!"
+                        }},
+                        "childrenOrder": ["0"],
+                        "id": "GEN_5",
+                        "type": "list"
+                    },
+                    "2": {
+                        "id": "GEN_7",
+                        "type": "list"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1",
+                    "2"
+                ],
+                "id": "GEN_2",
+                "type": "arguments"
+            }},
+            "childrenOrder": ["0"],
+            "id": "GEN_1",
+            "type": "Expr"
+        }},
+        "childrenOrder": ["0"],
+        "id": "GEN_0",
+        "type": "list"
+    }},
+    "childrenOrder": ["0"],
+    "weight": 1,
+    "id": "54e235edc9b317ecdf6e40c8adc5d312",
+    "type": "Module"
+}

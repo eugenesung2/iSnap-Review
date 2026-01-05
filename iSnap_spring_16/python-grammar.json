@@ -1,0 +1,696 @@
+{
+  "node_types": {
+    "Add": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Delete": {
+      "0": [
+        "list"
+      ],
+      "count": 1,
+      "type": "fixed"
+    },
+    "AugAssign": {
+      "0": [
+        "Name"
+      ],
+      "1": [
+        "Add",
+        "FloorDiv"
+      ],
+      "2": [
+        "Str",
+        "Call",
+        "Num",
+        "List",
+        "Subscript",
+        "BinOp",
+        "Tuple",
+        "Name"
+      ],
+      "count": 3,
+      "type": "fixed"
+    },
+    "Import": {
+      "0": [
+        "list"
+      ],
+      "count": 1,
+      "type": "fixed"
+    },
+    "Or": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Break": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "FunctionDef": {
+      "0": [
+        "arguments"
+      ],
+      "1": [
+        "list"
+      ],
+      "2": [
+        "list"
+      ],
+      "3": [
+        "null"
+      ],
+      "count": 4,
+      "type": "fixed"
+    },
+    "Store": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Index": {
+      "0": [
+        "Call",
+        "UnaryOp",
+        "Num",
+        "BinOp",
+        "Tuple",
+        "Name"
+      ],
+      "count": 1,
+      "type": "fixed"
+    },
+    "USub": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Gt": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Name": {
+      "0": [
+        "Load",
+        "Store"
+      ],
+      "count": 1,
+      "type": "fixed"
+    },
+    "Str": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "IsNot": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Assert": {
+      "0": [
+        "Compare"
+      ],
+      "1": [
+        "null"
+      ],
+      "count": 2,
+      "type": "fixed"
+    },
+    "IfExp": {
+      "0": [
+        "Compare",
+        "BoolOp"
+      ],
+      "1": [
+        "Str",
+        "NameConstant",
+        "BinOp"
+      ],
+      "2": [
+        "NameConstant",
+        "BinOp"
+      ],
+      "count": 3,
+      "type": "fixed"
+    },
+    "Compare": {
+      "0": [
+        "Str",
+        "Call",
+        "Attribute",
+        "Num",
+        "Subscript",
+        "Compare",
+        "BinOp",
+        "Name"
+      ],
+      "1": [
+        "list"
+      ],
+      "2": [
+        "list"
+      ],
+      "count": 3,
+      "type": "fixed"
+    },
+    "List": {
+      "0": [
+        "list"
+      ],
+      "1": [
+        "Load"
+      ],
+      "count": 2,
+      "type": "fixed"
+    },
+    "LtE": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "keyword": {
+      "0": [
+        "Str"
+      ],
+      "count": 1,
+      "type": "fixed"
+    },
+    "Sub": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Load": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "For": {
+      "0": [
+        "Name"
+      ],
+      "1": [
+        "Call",
+        "BinOp",
+        "Tuple",
+        "Name"
+      ],
+      "2": [
+        "list"
+      ],
+      "3": [
+        "list"
+      ],
+      "count": 4,
+      "type": "fixed"
+    },
+    "Lt": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "list": {
+      "type": "flexible",
+      "permitted_children": [
+        "NotEq",
+        "Delete",
+        "AugAssign",
+        "Import",
+        "In",
+        "Attribute",
+        "NotIn",
+        "Break",
+        "FunctionDef",
+        "Subscript",
+        "Is",
+        "Eq",
+        "Continue",
+        "Gt",
+        "Name",
+        "Str",
+        "IsNot",
+        "Assert",
+        "arg",
+        "alias",
+        "GtE",
+        "Compare",
+        "List",
+        "LtE",
+        "keyword",
+        "NameConstant",
+        "Call",
+        "Return",
+        "UnaryOp",
+        "Num",
+        "For",
+        "Lt",
+        "ListComp",
+        "While",
+        "comprehension",
+        "Expr",
+        "Assign",
+        "BinOp",
+        "BoolOp",
+        "If",
+        "Tuple"
+      ]
+    },
+    "comprehension": {
+      "0": [
+        "Name"
+      ],
+      "1": [
+        "Call"
+      ],
+      "2": [
+        "list"
+      ],
+      "count": 3,
+      "type": "fixed"
+    },
+    "Not": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "BitXor": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "null": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Expr": {
+      "0": [
+        "Str",
+        "NameConstant",
+        "Call",
+        "Subscript",
+        "Compare",
+        "BinOp",
+        "Name"
+      ],
+      "count": 1,
+      "type": "fixed"
+    },
+    "And": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Slice": {
+      "0": [
+        "Call",
+        "null",
+        "Num",
+        "BinOp",
+        "Name"
+      ],
+      "1": [
+        "Call",
+        "UnaryOp",
+        "null",
+        "Num",
+        "BinOp",
+        "Name"
+      ],
+      "2": [
+        "null"
+      ],
+      "count": 3,
+      "type": "fixed"
+    },
+    "BitAnd": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Pow": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Module": {
+      "0": [
+        "list"
+      ],
+      "count": 1,
+      "type": "fixed"
+    },
+    "If": {
+      "0": [
+        "Call",
+        "UnaryOp",
+        "Compare",
+        "BoolOp",
+        "BinOp",
+        "Tuple",
+        "Name"
+      ],
+      "1": [
+        "list"
+      ],
+      "2": [
+        "list"
+      ],
+      "count": 3,
+      "type": "fixed"
+    },
+    "NotEq": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Attribute": {
+      "0": [
+        "Str",
+        "Subscript",
+        "Name"
+      ],
+      "1": [
+        "Load"
+      ],
+      "count": 2,
+      "type": "fixed"
+    },
+    "In": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "NotIn": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Subscript": {
+      "0": [
+        "Attribute",
+        "Subscript",
+        "Name"
+      ],
+      "1": [
+        "Slice",
+        "Index"
+      ],
+      "2": [
+        "Load",
+        "Store",
+        "Del"
+      ],
+      "count": 3,
+      "type": "fixed"
+    },
+    "Is": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Eq": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Continue": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "arg": {
+      "0": [
+        "null"
+      ],
+      "count": 1,
+      "type": "fixed"
+    },
+    "alias": {
+      "0": [
+        "null"
+      ],
+      "count": 1,
+      "type": "fixed"
+    },
+    "GtE": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "NameConstant": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Call": {
+      "0": [
+        "Call",
+        "Attribute",
+        "Num",
+        "Name"
+      ],
+      "1": [
+        "list"
+      ],
+      "2": [
+        "list"
+      ],
+      "count": 3,
+      "type": "fixed"
+    },
+    "Return": {
+      "0": [
+        "NameConstant",
+        "Call",
+        "Attribute",
+        "Num",
+        "Subscript",
+        "Name",
+        "Str",
+        "null",
+        "IfExp",
+        "Compare",
+        "BinOp",
+        "BoolOp",
+        "Tuple"
+      ],
+      "count": 1,
+      "type": "fixed"
+    },
+    "Mod": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "UnaryOp": {
+      "0": [
+        "Not",
+        "USub"
+      ],
+      "1": [
+        "Num",
+        "BinOp",
+        "Name"
+      ],
+      "count": 2,
+      "type": "fixed"
+    },
+    "Num": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Del": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "ListComp": {
+      "0": [
+        "Call"
+      ],
+      "1": [
+        "list"
+      ],
+      "count": 2,
+      "type": "fixed"
+    },
+    "FloorDiv": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "While": {
+      "0": [
+        "Compare"
+      ],
+      "1": [
+        "list"
+      ],
+      "2": [
+        "list"
+      ],
+      "count": 3,
+      "type": "fixed"
+    },
+    "Div": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "Mult": {
+      "count": 0,
+      "type": "fixed"
+    },
+    "arguments": {
+      "0": [
+        "list"
+      ],
+      "1": [
+        "null"
+      ],
+      "2": [
+        "list"
+      ],
+      "3": [
+        "list"
+      ],
+      "4": [
+        "null"
+      ],
+      "5": [
+        "list"
+      ],
+      "count": 6,
+      "type": "fixed"
+    },
+    "Assign": {
+      "0": [
+        "list"
+      ],
+      "1": [
+        "NameConstant",
+        "Call",
+        "Attribute",
+        "Num",
+        "Subscript",
+        "Name",
+        "Str",
+        "IfExp",
+        "List",
+        "Compare",
+        "BinOp",
+        "BoolOp",
+        "Tuple"
+      ],
+      "count": 2,
+      "type": "fixed"
+    },
+    "BinOp": {
+      "0": [
+        "Str",
+        "NameConstant",
+        "Call",
+        "UnaryOp",
+        "Attribute",
+        "Num",
+        "List",
+        "Subscript",
+        "BinOp",
+        "Name"
+      ],
+      "1": [
+        "Add",
+        "Div",
+        "Sub",
+        "Mod",
+        "BitXor",
+        "Mult",
+        "BitAnd",
+        "Pow",
+        "FloorDiv"
+      ],
+      "2": [
+        "Str",
+        "Call",
+        "UnaryOp",
+        "Attribute",
+        "Num",
+        "List",
+        "Subscript",
+        "BinOp",
+        "Name"
+      ],
+      "count": 3,
+      "type": "fixed"
+    },
+    "BoolOp": {
+      "0": [
+        "Or",
+        "And"
+      ],
+      "1": [
+        "list"
+      ],
+      "count": 2,
+      "type": "fixed"
+    },
+    "Tuple": {
+      "0": [
+        "list"
+      ],
+      "1": [
+        "Load"
+      ],
+      "count": 2,
+      "type": "fixed"
+    }
+  },
+  "special_types": [
+    "Add",
+    "Delete",
+    "AugAssign",
+    "Import",
+    "Or",
+    "Break",
+    "FunctionDef",
+    "Store",
+    "Index",
+    "USub",
+    "Gt",
+    "Name",
+    "Str",
+    "Assert",
+    "IsNot",
+    "IfExp",
+    "Compare",
+    "List",
+    "LtE",
+    "keyword",
+    "Sub",
+    "Load",
+    "For",
+    "Lt",
+    "list",
+    "comprehension",
+    "Not",
+    "BitXor",
+    "null",
+    "Expr",
+    "And",
+    "Slice",
+    "BitAnd",
+    "Pow",
+    "If",
+    "NotEq",
+    "In",
+    "Attribute",
+    "NotIn",
+    "Subscript",
+    "Is",
+    "Eq",
+    "Continue",
+    "arg",
+    "alias",
+    "GtE",
+    "NameConstant",
+    "Call",
+    "Return",
+    "UnaryOp",
+    "Mod",
+    "Num",
+    "Del",
+    "ListComp",
+    "FloorDiv",
+    "While",
+    "Div",
+    "Mult",
+    "arguments",
+    "Assign",
+    "BoolOp",
+    "BinOp",
+    "Tuple"
+  ],
+  "root": [
+    "Module"
+  ],
+  "categories": {
+
+  },
+  "grammar_domain": "python"
+}

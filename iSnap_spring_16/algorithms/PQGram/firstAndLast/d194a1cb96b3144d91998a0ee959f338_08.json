@@ -1,0 +1,373 @@
+{
+    "children": {"0": {
+        "children": {"0": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "children": {"0": {
+                                "children": {"0": {
+                                    "id": "GEN_5",
+                                    "type": "null"
+                                }},
+                                "childrenOrder": ["0"],
+                                "id": "GEN_4",
+                                "type": "arg",
+                                "value": "s"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "GEN_3",
+                            "type": "list"
+                        },
+                        "1": {
+                            "id": "GEN_6",
+                            "type": "null"
+                        },
+                        "2": {
+                            "id": "GEN_7",
+                            "type": "list"
+                        },
+                        "3": {
+                            "id": "GEN_8",
+                            "type": "list"
+                        },
+                        "4": {
+                            "id": "GEN_9",
+                            "type": "null"
+                        },
+                        "5": {
+                            "id": "GEN_10",
+                            "type": "list"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "id": "GEN_2",
+                    "type": "arguments"
+                },
+                "1": {
+                    "children": {"0": {
+                        "children": {
+                            "0": {
+                                "children": {"0": {
+                                    "children": {"0": {"type": "Name"}},
+                                    "childrenOrder": ["0"],
+                                    "id": "GEN_14",
+                                    "type": "Store"
+                                }},
+                                "childrenOrder": ["0"],
+                                "id": "GEN_13",
+                                "type": "Name",
+                                "value": "n"
+                            },
+                            "1": {
+                                "children": {
+                                    "0": {
+                                        "children": {"0": {
+                                            "id": "GEN_17",
+                                            "type": "Load"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "id": "GEN_16",
+                                        "type": "Name",
+                                        "value": "range"
+                                    },
+                                    "1": {
+                                        "children": {
+                                            "0": {
+                                                "id": "GEN_19",
+                                                "type": "Num",
+                                                "value": "0"
+                                            },
+                                            "1": {
+                                                "children": {
+                                                    "0": {
+                                                        "children": {
+                                                            "0": {
+                                                                "children": {"0": {
+                                                                    "id": "GEN_23",
+                                                                    "type": "Load"
+                                                                }},
+                                                                "childrenOrder": ["0"],
+                                                                "id": "GEN_22",
+                                                                "type": "Name",
+                                                                "value": "len"
+                                                            },
+                                                            "1": {
+                                                                "children": {"0": {
+                                                                    "children": {"0": {
+                                                                        "id": "GEN_26",
+                                                                        "type": "Load"
+                                                                    }},
+                                                                    "childrenOrder": ["0"],
+                                                                    "id": "GEN_25",
+                                                                    "type": "Name",
+                                                                    "value": "s"
+                                                                }},
+                                                                "childrenOrder": ["0"],
+                                                                "id": "GEN_24",
+                                                                "type": "list"
+                                                            },
+                                                            "2": {
+                                                                "id": "GEN_27",
+                                                                "type": "list"
+                                                            }
+                                                        },
+                                                        "childrenOrder": [
+                                                            "0",
+                                                            "1",
+                                                            "2"
+                                                        ],
+                                                        "id": "GEN_21",
+                                                        "type": "Call"
+                                                    },
+                                                    "1": {
+                                                        "id": "GEN_28",
+                                                        "type": "Sub"
+                                                    },
+                                                    "2": {
+                                                        "id": "GEN_29",
+                                                        "type": "Num",
+                                                        "value": "1"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1",
+                                                    "2"
+                                                ],
+                                                "id": "GEN_20",
+                                                "type": "BinOp"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "id": "GEN_18",
+                                        "type": "list"
+                                    },
+                                    "2": {
+                                        "id": "GEN_30",
+                                        "type": "list"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1",
+                                    "2"
+                                ],
+                                "id": "GEN_15",
+                                "type": "Call"
+                            },
+                            "2": {
+                                "children": {"0": {
+                                    "children": {"0": {
+                                        "children": {
+                                            "0": {
+                                                "children": {
+                                                    "0": {
+                                                        "children": {
+                                                            "0": {
+                                                                "children": {"0": {
+                                                                    "id": "GEN_37",
+                                                                    "type": "Load"
+                                                                }},
+                                                                "childrenOrder": ["0"],
+                                                                "id": "GEN_36",
+                                                                "type": "Name",
+                                                                "value": "n"
+                                                            },
+                                                            "1": {
+                                                                "children": {"0": {
+                                                                    "children": {
+                                                                        "0": {
+                                                                            "children": {
+                                                                                "0": {
+                                                                                    "children": {"0": {
+                                                                                        "id": "GEN_42",
+                                                                                        "type": "Load"
+                                                                                    }},
+                                                                                    "childrenOrder": ["0"],
+                                                                                    "id": "GEN_41",
+                                                                                    "type": "Name",
+                                                                                    "value": "len"
+                                                                                },
+                                                                                "1": {
+                                                                                    "children": {"0": {
+                                                                                        "children": {"0": {
+                                                                                            "id": "GEN_45",
+                                                                                            "type": "Load"
+                                                                                        }},
+                                                                                        "childrenOrder": ["0"],
+                                                                                        "id": "GEN_44",
+                                                                                        "type": "Name",
+                                                                                        "value": "s"
+                                                                                    }},
+                                                                                    "childrenOrder": ["0"],
+                                                                                    "id": "GEN_43",
+                                                                                    "type": "list"
+                                                                                },
+                                                                                "2": {
+                                                                                    "id": "GEN_46",
+                                                                                    "type": "list"
+                                                                                }
+                                                                            },
+                                                                            "childrenOrder": [
+                                                                                "0",
+                                                                                "1",
+                                                                                "2"
+                                                                            ],
+                                                                            "id": "GEN_40",
+                                                                            "type": "Call"
+                                                                        },
+                                                                        "1": {
+                                                                            "id": "GEN_47",
+                                                                            "type": "Sub"
+                                                                        },
+                                                                        "2": {
+                                                                            "id": "GEN_48",
+                                                                            "type": "Num",
+                                                                            "value": "1"
+                                                                        }
+                                                                    },
+                                                                    "childrenOrder": [
+                                                                        "0",
+                                                                        "1",
+                                                                        "2"
+                                                                    ],
+                                                                    "id": "GEN_39",
+                                                                    "type": "BinOp"
+                                                                }},
+                                                                "childrenOrder": ["0"],
+                                                                "id": "GEN_38",
+                                                                "type": "Index"
+                                                            },
+                                                            "2": {
+                                                                "id": "GEN_49",
+                                                                "type": "Load"
+                                                            }
+                                                        },
+                                                        "childrenOrder": [
+                                                            "0",
+                                                            "1",
+                                                            "2"
+                                                        ],
+                                                        "id": "GEN_35",
+                                                        "type": "Subscript"
+                                                    },
+                                                    "1": {
+                                                        "children": {
+                                                            "0": {
+                                                                "children": {"0": {
+                                                                    "id": "GEN_52",
+                                                                    "type": "Load"
+                                                                }},
+                                                                "childrenOrder": ["0"],
+                                                                "id": "GEN_51",
+                                                                "type": "Name",
+                                                                "value": "n"
+                                                            },
+                                                            "1": {
+                                                                "children": {"0": {
+                                                                    "id": "GEN_54",
+                                                                    "type": "Num",
+                                                                    "value": "0"
+                                                                }},
+                                                                "childrenOrder": ["0"],
+                                                                "id": "GEN_53",
+                                                                "type": "Index"
+                                                            },
+                                                            "2": {
+                                                                "id": "GEN_55",
+                                                                "type": "Load"
+                                                            }
+                                                        },
+                                                        "childrenOrder": [
+                                                            "0",
+                                                            "1",
+                                                            "2"
+                                                        ],
+                                                        "id": "GEN_50",
+                                                        "type": "Subscript"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1"
+                                                ],
+                                                "id": "GEN_34",
+                                                "type": "list"
+                                            },
+                                            "1": {
+                                                "id": "GEN_56",
+                                                "type": "Load"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "id": "GEN_33",
+                                        "type": "Tuple"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "id": "GEN_32",
+                                    "type": "Return"
+                                }},
+                                "childrenOrder": ["0"],
+                                "id": "GEN_31",
+                                "type": "list"
+                            },
+                            "3": {
+                                "id": "GEN_57",
+                                "type": "list"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1",
+                            "2",
+                            "3"
+                        ],
+                        "id": "GEN_12",
+                        "type": "For"
+                    }},
+                    "childrenOrder": ["0"],
+                    "id": "GEN_11",
+                    "type": "list"
+                },
+                "2": {
+                    "id": "GEN_58",
+                    "type": "list"
+                },
+                "3": {
+                    "id": "GEN_59",
+                    "type": "null"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "id": "GEN_1",
+            "type": "FunctionDef",
+            "value": "firstAndLast"
+        }},
+        "childrenOrder": ["0"],
+        "id": "GEN_0",
+        "type": "list"
+    }},
+    "childrenOrder": ["0"],
+    "weight": 1,
+    "id": "d194a1cb96b3144d91998a0ee959f338",
+    "type": "Module"
+}

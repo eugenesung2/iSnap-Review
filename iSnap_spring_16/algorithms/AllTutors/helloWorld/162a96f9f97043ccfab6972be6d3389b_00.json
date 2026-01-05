@@ -1,0 +1,66 @@
+{
+    "children": {"body": {
+        "children": {"0": {
+            "children": {
+                "args": {
+                    "children": {
+                        "args": {"type": "list"},
+                        "kwonlyargs": {"type": "list"},
+                        "kwarg": {"type": "null"},
+                        "kw_defaults": {"type": "list"},
+                        "defaults": {"type": "list"},
+                        "vararg": {"type": "null"}
+                    },
+                    "childrenOrder": [
+                        "args",
+                        "vararg",
+                        "kwonlyargs",
+                        "kw_defaults",
+                        "kwarg",
+                        "defaults"
+                    ],
+                    "type": "arguments"
+                },
+                "decorator_list": {"type": "list"},
+                "returns": {"type": "null"},
+                "body": {
+                    "children": {"0": {
+                        "children": {"value": {
+                            "children": {
+                                "op": {"type": "Add"},
+                                "2": {"type": "null"},
+                                "left": {
+                                    "type": "Str",
+                                    "value": "Hello World"
+                                }
+                            },
+                            "childrenOrder": [
+                                "left",
+                                "op",
+                                "2"
+                            ],
+                            "type": "BinOp"
+                        }},
+                        "childrenOrder": ["value"],
+                        "type": "Return"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "list"
+                }
+            },
+            "childrenOrder": [
+                "args",
+                "body",
+                "decorator_list",
+                "returns"
+            ],
+            "type": "FunctionDef",
+            "value": "helloWorld"
+        }},
+        "childrenOrder": ["0"],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 2,
+    "type": "Module"
+}

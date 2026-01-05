@@ -1,0 +1,19 @@
+{
+    "children": {"0": {
+        "children": {
+            "0": {"type": "Import"},
+            "1": {
+                "type": "FunctionDef",
+                "value": "isPunctuation"
+            }
+        },
+        "childrenOrder": [
+            "0",
+            "1"
+        ],
+        "type": "list"
+    }},
+    "childrenOrder": ["0"],
+    "type": "Module",
+    "error": 0.25000021848846055
+}

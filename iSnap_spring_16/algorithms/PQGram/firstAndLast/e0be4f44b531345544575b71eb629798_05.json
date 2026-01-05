@@ -1,0 +1,206 @@
+{
+    "children": {"0": {
+        "children": {"0": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "children": {"0": {
+                                "children": {"0": {
+                                    "id": "GEN_5",
+                                    "type": "null"
+                                }},
+                                "childrenOrder": ["0"],
+                                "id": "GEN_4",
+                                "type": "arg",
+                                "value": "s"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "GEN_3",
+                            "type": "list"
+                        },
+                        "1": {
+                            "id": "GEN_6",
+                            "type": "null"
+                        },
+                        "2": {
+                            "id": "GEN_7",
+                            "type": "list"
+                        },
+                        "3": {
+                            "id": "GEN_8",
+                            "type": "list"
+                        },
+                        "4": {
+                            "id": "GEN_9",
+                            "type": "null"
+                        },
+                        "5": {
+                            "id": "GEN_10",
+                            "type": "list"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "id": "GEN_2",
+                    "type": "arguments"
+                },
+                "1": {
+                    "children": {"0": {
+                        "children": {"0": {
+                            "children": {
+                                "0": {
+                                    "children": {
+                                        "0": {
+                                            "children": {"0": {
+                                                "id": "GEN_16",
+                                                "type": "Load"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "GEN_15",
+                                            "type": "Name",
+                                            "value": "s"
+                                        },
+                                        "1": {
+                                            "children": {"0": {
+                                                "id": "GEN_18",
+                                                "type": "Num",
+                                                "value": "1"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "GEN_17",
+                                            "type": "Index"
+                                        },
+                                        "2": {
+                                            "id": "GEN_19",
+                                            "type": "Load"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1",
+                                        "2"
+                                    ],
+                                    "id": "GEN_14",
+                                    "type": "Subscript"
+                                },
+                                "1": {
+                                    "id": "GEN_20",
+                                    "type": "Add"
+                                },
+                                "2": {
+                                    "children": {
+                                        "0": {
+                                            "children": {"0": {
+                                                "id": "GEN_23",
+                                                "type": "Load"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "GEN_22",
+                                            "type": "Name",
+                                            "value": "s"
+                                        },
+                                        "1": {
+                                            "children": {"0": {
+                                                "children": {
+                                                    "0": {
+                                                        "children": {"0": {
+                                                            "id": "GEN_27",
+                                                            "type": "Load"
+                                                        }},
+                                                        "childrenOrder": ["0"],
+                                                        "id": "GEN_26",
+                                                        "type": "Name",
+                                                        "value": "len"
+                                                    },
+                                                    "1": {
+                                                        "children": {"0": {
+                                                            "children": {"0": {
+                                                                "id": "GEN_30",
+                                                                "type": "Load"
+                                                            }},
+                                                            "childrenOrder": ["0"],
+                                                            "id": "GEN_29",
+                                                            "type": "Name",
+                                                            "value": "s"
+                                                        }},
+                                                        "childrenOrder": ["0"],
+                                                        "id": "GEN_28",
+                                                        "type": "list"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1"
+                                                ],
+                                                "id": "GEN_25",
+                                                "type": "Call"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "GEN_24",
+                                            "type": "Index"
+                                        },
+                                        "2": {
+                                            "id": "GEN_32",
+                                            "type": "Load"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1",
+                                        "2"
+                                    ],
+                                    "id": "GEN_21",
+                                    "type": "Subscript"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1",
+                                "2"
+                            ],
+                            "id": "GEN_13",
+                            "type": "BinOp"
+                        }},
+                        "childrenOrder": ["0"],
+                        "id": "GEN_12",
+                        "type": "Return"
+                    }},
+                    "childrenOrder": ["0"],
+                    "id": "GEN_11",
+                    "type": "list"
+                },
+                "2": {
+                    "id": "GEN_33",
+                    "type": "list"
+                },
+                "3": {
+                    "id": "GEN_34",
+                    "type": "null"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "id": "GEN_1",
+            "type": "FunctionDef",
+            "value": "firstAndLast"
+        }},
+        "childrenOrder": ["0"],
+        "id": "GEN_0",
+        "type": "list"
+    }},
+    "childrenOrder": ["0"],
+    "weight": 1,
+    "id": "e0be4f44b531345544575b71eb629798",
+    "type": "Module"
+}

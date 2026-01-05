@@ -1,0 +1,218 @@
+{
+    "children": {"0": {
+        "children": {
+            "0": {
+                "children": {"0": {
+                    "children": {"0": {
+                        "children": {"0": {
+                            "id": "GEN_4",
+                            "type": "null"
+                        }},
+                        "childrenOrder": ["0"],
+                        "id": "GEN_3",
+                        "type": "alias",
+                        "value": "string"
+                    }},
+                    "childrenOrder": ["0"],
+                    "id": "GEN_2",
+                    "type": "list"
+                }},
+                "childrenOrder": ["0"],
+                "id": "GEN_1",
+                "type": "Import"
+            },
+            "1": {
+                "children": {
+                    "0": {
+                        "children": {
+                            "0": {
+                                "children": {"0": {
+                                    "children": {"0": {
+                                        "id": "GEN_9",
+                                        "type": "null"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "id": "GEN_8",
+                                    "type": "arg",
+                                    "value": "a"
+                                }},
+                                "childrenOrder": ["0"],
+                                "id": "GEN_7",
+                                "type": "list"
+                            },
+                            "1": {
+                                "id": "GEN_10",
+                                "type": "null"
+                            },
+                            "2": {
+                                "id": "GEN_11",
+                                "type": "list"
+                            },
+                            "3": {
+                                "id": "GEN_12",
+                                "type": "list"
+                            },
+                            "4": {
+                                "id": "GEN_13",
+                                "type": "null"
+                            },
+                            "5": {
+                                "id": "GEN_14",
+                                "type": "list"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                        ],
+                        "id": "GEN_6",
+                        "type": "arguments"
+                    },
+                    "1": {
+                        "children": {
+                            "0": {
+                                "children": {
+                                    "0": {
+                                        "children": {
+                                            "0": {
+                                                "children": {"0": {
+                                                    "id": "GEN_19",
+                                                    "type": "Load"
+                                                }},
+                                                "childrenOrder": ["0"],
+                                                "id": "GEN_18",
+                                                "type": "Name",
+                                                "value": "a"
+                                            },
+                                            "1": {
+                                                "children": {"0": {
+                                                    "id": "GEN_21",
+                                                    "type": "Eq"
+                                                }},
+                                                "childrenOrder": ["0"],
+                                                "id": "GEN_20",
+                                                "type": "list"
+                                            },
+                                            "2": {
+                                                "children": {"0": {
+                                                    "children": {
+                                                        "0": {
+                                                            "children": {"0": {
+                                                                "id": "GEN_25",
+                                                                "type": "Load"
+                                                            }},
+                                                            "childrenOrder": ["0"],
+                                                            "id": "GEN_24",
+                                                            "type": "Name",
+                                                            "value": "string"
+                                                        },
+                                                        "1": {
+                                                            "id": "GEN_26",
+                                                            "type": "Load"
+                                                        }
+                                                    },
+                                                    "childrenOrder": [
+                                                        "0",
+                                                        "1"
+                                                    ],
+                                                    "id": "GEN_23",
+                                                    "type": "Attribute",
+                                                    "value": "punctuation"
+                                                }},
+                                                "childrenOrder": ["0"],
+                                                "id": "GEN_22",
+                                                "type": "list"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1",
+                                            "2"
+                                        ],
+                                        "id": "GEN_17",
+                                        "type": "Compare"
+                                    },
+                                    "1": {
+                                        "children": {"0": {
+                                            "children": {"0": {
+                                                "id": "GEN_29",
+                                                "type": "NameConstant",
+                                                "value": "True"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "GEN_28",
+                                            "type": "Return"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "id": "GEN_27",
+                                        "type": "list"
+                                    },
+                                    "2": {
+                                        "children": {"0": {"type": "Return"}},
+                                        "childrenOrder": ["0"],
+                                        "id": "GEN_30",
+                                        "type": "list"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1",
+                                    "2"
+                                ],
+                                "id": "GEN_16",
+                                "type": "If"
+                            },
+                            "1": {
+                                "children": {"0": {
+                                    "id": "GEN_32",
+                                    "type": "NameConstant",
+                                    "value": "False"
+                                }},
+                                "childrenOrder": ["0"],
+                                "id": "GEN_31",
+                                "type": "Return"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "id": "GEN_15",
+                        "type": "list"
+                    },
+                    "2": {
+                        "id": "GEN_33",
+                        "type": "list"
+                    },
+                    "3": {
+                        "id": "GEN_34",
+                        "type": "null"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "id": "GEN_5",
+                "type": "FunctionDef",
+                "value": "isPunctuation"
+            }
+        },
+        "childrenOrder": [
+            "0",
+            "1"
+        ],
+        "id": "GEN_0",
+        "type": "list"
+    }},
+    "childrenOrder": ["0"],
+    "weight": 1,
+    "id": "f1057510fe1fa0d517da104f6e0c5af8",
+    "type": "Module"
+}

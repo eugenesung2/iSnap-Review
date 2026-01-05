@@ -1,0 +1,32 @@
+{
+    "children": {"body": {
+        "children": {"0": {
+            "children": {
+                "targets": {
+                    "children": {"0": {
+                        "children": {"ctx": {"type": "Store"}},
+                        "childrenOrder": ["ctx"],
+                        "type": "Name",
+                        "value": "x"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "list"
+                },
+                "value": {
+                    "type": "Str",
+                    "value": "helloWorld"
+                }
+            },
+            "childrenOrder": [
+                "targets",
+                "value"
+            ],
+            "type": "Assign"
+        }},
+        "childrenOrder": ["0"],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 2,
+    "type": "Module"
+}

@@ -1,0 +1,85 @@
+{
+    "children": {"body": {
+        "children": {"0": {
+            "children": {
+                "args": {
+                    "children": {
+                        "args": {"type": "list"},
+                        "kwonlyargs": {"type": "list"},
+                        "kwarg": {"type": "null"},
+                        "kw_defaults": {"type": "list"},
+                        "defaults": {"type": "list"},
+                        "vararg": {"type": "null"}
+                    },
+                    "childrenOrder": [
+                        "args",
+                        "vararg",
+                        "kwonlyargs",
+                        "kw_defaults",
+                        "kwarg",
+                        "defaults"
+                    ],
+                    "type": "arguments"
+                },
+                "decorator_list": {"type": "list"},
+                "returns": {"type": "null"},
+                "body": {
+                    "children": {
+                        "0": {
+                            "children": {"value": {
+                                "children": {
+                                    "args": {
+                                        "children": {"0": {
+                                            "type": "Str",
+                                            "value": "Hello World"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "type": "list"
+                                    },
+                                    "func": {
+                                        "children": {"ctx": {"type": "Load"}},
+                                        "childrenOrder": ["ctx"],
+                                        "type": "Name",
+                                        "value": "print"
+                                    },
+                                    "keywords": {"type": "list"}
+                                },
+                                "childrenOrder": [
+                                    "func",
+                                    "args",
+                                    "keywords"
+                                ],
+                                "type": "Call"
+                            }},
+                            "childrenOrder": ["value"],
+                            "type": "Expr"
+                        },
+                        "1": {
+                            "children": {"0": {"type": "null"}},
+                            "childrenOrder": ["0"],
+                            "type": "Return"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1"
+                    ],
+                    "type": "list"
+                }
+            },
+            "childrenOrder": [
+                "args",
+                "body",
+                "decorator_list",
+                "returns"
+            ],
+            "type": "FunctionDef",
+            "value": "helloWorld"
+        }},
+        "childrenOrder": ["0"],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 1,
+    "type": "Module"
+}

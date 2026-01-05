@@ -1,0 +1,206 @@
+{
+    "children": {"0": {
+        "children": {
+            "0": {
+                "children": {"0": {
+                    "children": {"0": {
+                        "children": {"0": {"type": "null"}},
+                        "childrenOrder": ["0"],
+                        "type": "alias",
+                        "value": "string"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "list"
+                }},
+                "childrenOrder": ["0"],
+                "type": "Import"
+            },
+            "1": {
+                "children": {
+                    "0": {
+                        "children": {
+                            "0": {
+                                "children": {"0": {
+                                    "children": {"0": {"type": "null"}},
+                                    "childrenOrder": ["0"],
+                                    "type": "arg",
+                                    "value": "string"
+                                }},
+                                "childrenOrder": ["0"],
+                                "type": "list"
+                            },
+                            "1": {"type": "null"},
+                            "2": {"type": "list"},
+                            "3": {"type": "list"},
+                            "4": {"type": "null"},
+                            "5": {"type": "list"}
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                        ],
+                        "type": "arguments"
+                    },
+                    "1": {
+                        "children": {"0": {
+                            "children": {
+                                "0": {
+                                    "children": {
+                                        "0": {
+                                            "children": {
+                                                "0": {
+                                                    "children": {"0": {"type": "Load"}},
+                                                    "childrenOrder": ["0"],
+                                                    "type": "Name",
+                                                    "value": "l"
+                                                },
+                                                "1": {
+                                                    "children": {"0": {
+                                                        "children": {"0": {"type": "Load"}},
+                                                        "childrenOrder": ["0"],
+                                                        "type": "Name",
+                                                        "value": "i"
+                                                    }},
+                                                    "childrenOrder": ["0"],
+                                                    "type": "Index"
+                                                },
+                                                "2": {"type": "Load"}
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1",
+                                                "2"
+                                            ],
+                                            "type": "Subscript"
+                                        },
+                                        "1": {
+                                            "children": {"0": {"type": "In"}},
+                                            "childrenOrder": ["0"],
+                                            "type": "list"
+                                        },
+                                        "2": {
+                                            "children": {"0": {
+                                                "children": {
+                                                    "0": {
+                                                        "children": {"0": {"type": "Load"}},
+                                                        "childrenOrder": ["0"],
+                                                        "type": "Name",
+                                                        "value": "string"
+                                                    },
+                                                    "1": {"type": "Load"}
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1"
+                                                ],
+                                                "type": "Attribute",
+                                                "value": "punctuation"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "type": "list"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1",
+                                        "2"
+                                    ],
+                                    "type": "Compare"
+                                },
+                                "1": {
+                                    "children": {"0": {
+                                        "children": {"0": {
+                                            "children": {
+                                                "0": {
+                                                    "children": {
+                                                        "0": {
+                                                            "children": {"0": {"type": "Load"}},
+                                                            "childrenOrder": ["0"],
+                                                            "type": "Name",
+                                                            "value": "l"
+                                                        },
+                                                        "1": {
+                                                            "children": {"0": {
+                                                                "children": {"0": {"type": "Load"}},
+                                                                "childrenOrder": ["0"],
+                                                                "type": "Name",
+                                                                "value": "i"
+                                                            }},
+                                                            "childrenOrder": ["0"],
+                                                            "type": "Index"
+                                                        },
+                                                        "2": {"type": "Load"}
+                                                    },
+                                                    "childrenOrder": [
+                                                        "0",
+                                                        "1",
+                                                        "2"
+                                                    ],
+                                                    "type": "Subscript"
+                                                },
+                                                "1": {
+                                                    "children": {"0": {"type": "Eq"}},
+                                                    "childrenOrder": ["0"],
+                                                    "type": "list"
+                                                },
+                                                "2": {
+                                                    "children": {"0": {
+                                                        "type": "Str",
+                                                        "value": "?"
+                                                    }},
+                                                    "childrenOrder": ["0"],
+                                                    "type": "list"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1",
+                                                "2"
+                                            ],
+                                            "type": "Compare"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "type": "Expr"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "type": "list"
+                                },
+                                "2": {"type": "list"}
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1",
+                                "2"
+                            ],
+                            "type": "If"
+                        }},
+                        "childrenOrder": ["0"],
+                        "type": "list"
+                    },
+                    "2": {"type": "list"},
+                    "3": {"type": "null"}
+                },
+                "childrenOrder": [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "type": "FunctionDef",
+                "value": "isPunctuation"
+            }
+        },
+        "childrenOrder": [
+            "0",
+            "1"
+        ],
+        "type": "list"
+    }},
+    "childrenOrder": ["0"],
+    "type": "Module",
+    "error": 0.14067132174018213
+}

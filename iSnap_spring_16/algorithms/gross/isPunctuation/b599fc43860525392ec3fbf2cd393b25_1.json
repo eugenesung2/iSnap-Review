@@ -1,0 +1,15 @@
+{
+    "children": {"0": {
+        "children": {"0": {
+            "children": {"0": {"type": "list"}},
+            "childrenOrder": ["0"],
+            "type": "FunctionDef",
+            "value": "isPunctuation"
+        }},
+        "childrenOrder": ["0"],
+        "type": "list"
+    }},
+    "childrenOrder": ["0"],
+    "type": "Module",
+    "error": 0.7511111111111112
+}

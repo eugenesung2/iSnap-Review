@@ -1,0 +1,85 @@
+{
+    "children": {"body": {
+        "children": {"0": {
+            "children": {
+                "args": {
+                    "children": {
+                        "args": {
+                            "children": {"0": {
+                                "children": {"annotation": {"type": "null"}},
+                                "childrenOrder": ["annotation"],
+                                "type": "arg",
+                                "value": "s"
+                            }},
+                            "childrenOrder": ["0"],
+                            "type": "list"
+                        },
+                        "kwonlyargs": {"type": "list"},
+                        "kwarg": {"type": "null"},
+                        "kw_defaults": {"type": "list"},
+                        "defaults": {"type": "list"},
+                        "vararg": {"type": "null"}
+                    },
+                    "childrenOrder": [
+                        "args",
+                        "vararg",
+                        "kwonlyargs",
+                        "kw_defaults",
+                        "kwarg",
+                        "defaults"
+                    ],
+                    "type": "arguments"
+                },
+                "decorator_list": {"type": "list"},
+                "returns": {"type": "null"},
+                "body": {
+                    "children": {
+                        "0": {
+                            "children": {
+                                "1": {"type": "null"},
+                                "targets": {
+                                    "children": {"0": {
+                                        "children": {"ctx": {"type": "Store"}},
+                                        "childrenOrder": ["ctx"],
+                                        "type": "Name",
+                                        "value": "start"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "type": "list"
+                                }
+                            },
+                            "childrenOrder": [
+                                "targets",
+                                "1"
+                            ],
+                            "type": "Assign"
+                        },
+                        "1": {
+                            "children": {"value": {"type": "null"}},
+                            "childrenOrder": ["value"],
+                            "type": "Return"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1"
+                    ],
+                    "type": "list"
+                }
+            },
+            "childrenOrder": [
+                "args",
+                "body",
+                "decorator_list",
+                "returns"
+            ],
+            "type": "FunctionDef",
+            "value": "firstAndLast"
+        }},
+        "childrenOrder": ["0"],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 3,
+    "type": "Module"
+}

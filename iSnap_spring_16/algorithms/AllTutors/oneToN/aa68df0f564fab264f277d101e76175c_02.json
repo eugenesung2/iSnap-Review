@@ -1,0 +1,116 @@
+{
+    "children": {"body": {
+        "children": {"0": {
+            "children": {
+                "args": {
+                    "children": {
+                        "args": {
+                            "children": {"0": {
+                                "children": {"annotation": {"type": "null"}},
+                                "childrenOrder": ["annotation"],
+                                "type": "arg",
+                                "value": "n"
+                            }},
+                            "childrenOrder": ["0"],
+                            "type": "list"
+                        },
+                        "kwonlyargs": {"type": "list"},
+                        "kwarg": {"type": "null"},
+                        "kw_defaults": {"type": "list"},
+                        "defaults": {"type": "list"},
+                        "vararg": {"type": "null"}
+                    },
+                    "childrenOrder": [
+                        "args",
+                        "vararg",
+                        "kwonlyargs",
+                        "kw_defaults",
+                        "kwarg",
+                        "defaults"
+                    ],
+                    "type": "arguments"
+                },
+                "decorator_list": {"type": "list"},
+                "returns": {"type": "null"},
+                "body": {
+                    "children": {"0": {
+                        "children": {
+                            "orelse": {"type": "list"},
+                            "iter": {
+                                "children": {
+                                    "args": {
+                                        "children": {
+                                            "0": {
+                                                "type": "Num",
+                                                "value": "1"
+                                            },
+                                            "1": {
+                                                "type": "Num",
+                                                "value": "6"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "type": "list"
+                                    },
+                                    "func": {
+                                        "children": {"ctx": {"type": "Load"}},
+                                        "childrenOrder": ["ctx"],
+                                        "type": "Name",
+                                        "value": "range"
+                                    },
+                                    "keywords": {"type": "list"}
+                                },
+                                "childrenOrder": [
+                                    "func",
+                                    "args",
+                                    "keywords"
+                                ],
+                                "type": "Call"
+                            },
+                            "body": {
+                                "children": {"0": {
+                                    "children": {"0": {"type": "null"}},
+                                    "childrenOrder": ["0"],
+                                    "type": "Expr"
+                                }},
+                                "childrenOrder": ["0"],
+                                "type": "list"
+                            },
+                            "target": {
+                                "children": {"ctx": {"type": "Store"}},
+                                "childrenOrder": ["ctx"],
+                                "type": "Name",
+                                "value": "i"
+                            }
+                        },
+                        "childrenOrder": [
+                            "target",
+                            "iter",
+                            "body",
+                            "orelse"
+                        ],
+                        "type": "For"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "list"
+                }
+            },
+            "childrenOrder": [
+                "args",
+                "body",
+                "decorator_list",
+                "returns"
+            ],
+            "type": "FunctionDef",
+            "value": "oneToN"
+        }},
+        "childrenOrder": ["0"],
+        "type": "list"
+    }},
+    "childrenOrder": ["body"],
+    "weight": 3,
+    "type": "Module"
+}

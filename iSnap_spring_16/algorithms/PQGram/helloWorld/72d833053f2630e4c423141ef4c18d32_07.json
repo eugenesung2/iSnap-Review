@@ -1,0 +1,21 @@
+{
+    "children": {"0": {
+        "children": {"0": {
+            "children": {"0": {
+                "id": "GEN_2",
+                "type": "Str",
+                "value": "helloWorld"
+            }},
+            "childrenOrder": ["0"],
+            "id": "GEN_1",
+            "type": "FunctionDef"
+        }},
+        "childrenOrder": ["0"],
+        "id": "GEN_0",
+        "type": "list"
+    }},
+    "childrenOrder": ["0"],
+    "weight": 1,
+    "id": "72d833053f2630e4c423141ef4c18d32",
+    "type": "Module"
+}
