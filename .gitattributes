@@ -1,1 +1,2 @@
 prog_snap_2/CodeStates/CodeStates.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
