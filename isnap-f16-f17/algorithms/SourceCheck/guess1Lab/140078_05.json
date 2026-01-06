@@ -1,0 +1,158 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "children": {"0": {"type": "literal"}},
+                            "childrenOrder": ["0"],
+                            "id": "105",
+                            "type": "receiveKey"
+                        },
+                        "1": {
+                            "children": {
+                                "0": {"type": "literal"},
+                                "1": {
+                                    "type": "literal",
+                                    "value": "1"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "141",
+                            "type": "doSayFor"
+                        },
+                        "2": {
+                            "children": {"0": {"type": "literal"}},
+                            "childrenOrder": ["0"],
+                            "id": "142",
+                            "type": "doAsk"
+                        },
+                        "3": {
+                            "children": {
+                                "0": {
+                                    "children": {"0": {
+                                        "children": {
+                                            "0": {"type": "literal"},
+                                            "1": {
+                                                "id": "144",
+                                                "type": "getLastAnswer"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "type": "list"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "id": "202",
+                                    "type": "reportJoinWords"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "1"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "200",
+                            "type": "doSayFor"
+                        },
+                        "4": {
+                            "children": {"0": {"type": "literal"}},
+                            "childrenOrder": ["0"],
+                            "id": "203",
+                            "type": "doAsk"
+                        },
+                        "5": {
+                            "children": {
+                                "0": {
+                                    "children": {
+                                        "0": {
+                                            "id": "208",
+                                            "type": "getLastAnswer"
+                                        },
+                                        "1": {
+                                            "children": {
+                                                "0": {
+                                                    "type": "literal",
+                                                    "value": "1"
+                                                },
+                                                "1": {
+                                                    "type": "literal",
+                                                    "value": "10"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "206",
+                                            "type": "reportRandom"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "207",
+                                    "type": "reportEquals"
+                                },
+                                "1": {
+                                    "children": {"0": {"type": "doSayFor"}},
+                                    "childrenOrder": ["0"],
+                                    "type": "script"
+                                },
+                                "2": {"type": "script"}
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1",
+                                "2"
+                            ],
+                            "id": "205",
+                            "type": "doIfElse"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {"0": {"type": "script"}},
+            "childrenOrder": ["0"],
+            "id": "5feeb70e-2a62-4d7c-bb53-4a2554f51b26",
+            "type": "customBlock",
+            "value": "I made this"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1"
+    ],
+    "weight": 0.5,
+    "id": "bb6fd568-3a1a-4990-bf38-a1aa3c9edde2",
+    "type": "Snap!shot"
+}

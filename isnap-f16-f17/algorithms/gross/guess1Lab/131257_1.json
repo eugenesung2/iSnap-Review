@@ -1,0 +1,204 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "133",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "children": {"0": {"type": "literal"}},
+                            "childrenOrder": ["0"],
+                            "id": "215",
+                            "type": "doAsk"
+                        },
+                        "2": {
+                            "children": {
+                                "0": {
+                                    "type": "varMenu",
+                                    "value": "randon guess"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "type": "literal",
+                                            "value": "1"
+                                        },
+                                        "1": {
+                                            "type": "literal",
+                                            "value": "10"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "175",
+                                    "type": "reportRandom"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "type": "doSetVar"
+                        },
+                        "3": {
+                            "children": {
+                                "0": {
+                                    "children": {
+                                        "0": {
+                                            "id": "213",
+                                            "type": "getLastAnswer"
+                                        },
+                                        "1": {
+                                            "type": "literal",
+                                            "value": "2"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "206",
+                                    "type": "reportEquals"
+                                },
+                                "1": {
+                                    "children": {"0": {
+                                        "children": {"0": {"type": "literal"}},
+                                        "childrenOrder": ["0"],
+                                        "id": "210",
+                                        "type": "bubble"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "type": "script"
+                                },
+                                "2": {
+                                    "children": {"0": {
+                                        "children": {
+                                            "0": {
+                                                "children": {
+                                                    "0": {"type": "literal"},
+                                                    "1": {
+                                                        "type": "literal",
+                                                        "value": "2"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1"
+                                                ],
+                                                "id": "238",
+                                                "type": "reportEquals"
+                                            },
+                                            "1": {
+                                                "children": {"0": {
+                                                    "children": {
+                                                        "0": {
+                                                            "children": {
+                                                                "0": {
+                                                                    "id": "244",
+                                                                    "type": "getLastAnswer"
+                                                                },
+                                                                "1": {
+                                                                    "type": "literal",
+                                                                    "value": "2"
+                                                                }
+                                                            },
+                                                            "childrenOrder": [
+                                                                "0",
+                                                                "1"
+                                                            ],
+                                                            "id": "241",
+                                                            "type": "reportEquals"
+                                                        },
+                                                        "1": {
+                                                            "children": {"0": {
+                                                                "children": {"0": {"type": "literal"}},
+                                                                "childrenOrder": ["0"],
+                                                                "id": "242",
+                                                                "type": "bubble"
+                                                            }},
+                                                            "childrenOrder": ["0"],
+                                                            "type": "script"
+                                                        },
+                                                        "2": {
+                                                            "children": {"0": {
+                                                                "children": {"0": {"type": "literal"}},
+                                                                "childrenOrder": ["0"],
+                                                                "id": "243",
+                                                                "type": "bubble"
+                                                            }},
+                                                            "childrenOrder": ["0"],
+                                                            "type": "script"
+                                                        }
+                                                    },
+                                                    "childrenOrder": [
+                                                        "0",
+                                                        "1",
+                                                        "2"
+                                                    ],
+                                                    "id": "240",
+                                                    "type": "doIfElse"
+                                                }},
+                                                "childrenOrder": ["0"],
+                                                "type": "script"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "id": "218",
+                                        "type": "doUntil"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1",
+                                "2"
+                            ],
+                            "type": "doIfElse"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "type": "varDec",
+            "value": "2"
+        },
+        "2": {
+            "type": "varDec",
+            "value": "randon guess"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "id": "126559e7-1b02-4c88-846b-054dd2360a76",
+    "type": "Snap!shot",
+    "error": 0.1532510065500871
+}

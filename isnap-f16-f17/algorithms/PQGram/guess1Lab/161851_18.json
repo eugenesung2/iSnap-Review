@@ -1,0 +1,211 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "58",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "children": {
+                                "0": {"type": "literal"},
+                                "1": {
+                                    "type": "literal",
+                                    "value": "4"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "84",
+                            "type": "doSayFor"
+                        },
+                        "2": {
+                            "children": {"0": {"type": "literal"}},
+                            "childrenOrder": ["0"],
+                            "id": "145",
+                            "type": "doAsk"
+                        },
+                        "3": {
+                            "children": {
+                                "0": {
+                                    "type": "varMenu",
+                                    "value": "Name?"
+                                },
+                                "1": {
+                                    "id": "265",
+                                    "type": "getLastAnswer"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "194",
+                            "type": "doSetVar"
+                        },
+                        "4": {
+                            "children": {
+                                "0": {
+                                    "children": {"0": {
+                                        "children": {
+                                            "0": {"type": "literal"},
+                                            "1": {
+                                                "id": "118",
+                                                "type": "var",
+                                                "value": "Name?"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "type": "list"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "id": "184",
+                                    "type": "reportJoinWords"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "2"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "153",
+                            "type": "doSayFor"
+                        },
+                        "5": {
+                            "children": {
+                                "0": {
+                                    "type": "varMenu",
+                                    "value": "Number"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "type": "literal",
+                                            "value": "1"
+                                        },
+                                        "1": {
+                                            "type": "literal",
+                                            "value": "10"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "288",
+                                    "type": "reportRandom"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "307",
+                            "type": "doAsk"
+                        },
+                        "6": {
+                            "children": {"0": {
+                                "children": {"0": {
+                                    "children": {
+                                        "0": {
+                                            "id": "310",
+                                            "type": "var",
+                                            "value": "Name?"
+                                        },
+                                        "1": {"type": "literal"}
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "type": "list"
+                                }},
+                                "childrenOrder": ["0"],
+                                "id": "309",
+                                "type": "reportJoinWords"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "326",
+                            "type": "doAsk"
+                        },
+                        "7": {
+                            "children": {
+                                "0": {
+                                    "children": {
+                                        "0": {
+                                            "id": "331",
+                                            "type": "getLastAnswer"
+                                        },
+                                        "1": {
+                                            "id": "332",
+                                            "type": "var",
+                                            "value": "Number"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "330",
+                                    "type": "reportEquals"
+                                },
+                                "1": {"type": "script"}
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "329",
+                            "type": "doUntil"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "type": "varDec",
+            "value": "Name?"
+        },
+        "2": {
+            "type": "varDec",
+            "value": "Number"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "weight": 1,
+    "id": "02facacb-3a83-4d96-8abc-4dee0de6fca0",
+    "type": "Snap!shot"
+}

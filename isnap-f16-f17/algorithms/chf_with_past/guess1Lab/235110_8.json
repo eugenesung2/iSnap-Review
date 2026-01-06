@@ -1,0 +1,134 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "58",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "children": {
+                                "0": {"type": "literal"},
+                                "1": {
+                                    "type": "literal",
+                                    "value": "2"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "92",
+                            "type": "doSayFor"
+                        },
+                        "2": {
+                            "children": {"0": {"type": "literal"}},
+                            "childrenOrder": ["0"],
+                            "id": "110",
+                            "type": "doAsk"
+                        },
+                        "3": {
+                            "children": {
+                                "0": {
+                                    "children": {"0": {
+                                        "children": {
+                                            "0": {"type": "literal"},
+                                            "1": {
+                                                "id": "141",
+                                                "type": "getLastAnswer"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "type": "list"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "id": "140",
+                                    "type": "reportJoinWords"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "2"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "111",
+                            "type": "doSayFor"
+                        },
+                        "4": {
+                            "children": {
+                                "0": {
+                                    "type": "varMenu",
+                                    "value": "Secret Number"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "type": "literal",
+                                            "value": "1"
+                                        },
+                                        "1": {
+                                            "type": "literal",
+                                            "value": "10"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "169",
+                                    "type": "reportRandom"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "151",
+                            "type": "doSetVar"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "type": "customBlock",
+            "value": "Random guessing game"
+        },
+        "2": {
+            "type": "varDec",
+            "value": "Secret Number"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "id": "03034c52-2f8f-4ed6-b3eb-6aa45663c17c",
+    "type": "Snap!shot",
+    "error": 0.031143851962523877
+}

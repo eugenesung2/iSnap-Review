@@ -1,0 +1,110 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "381",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "children": {"0": {
+                                "type": "literal",
+                                "value": "5"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "380",
+                            "type": "evaluateCustomBlock",
+                            "value": "Squiral maker %s"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "id": "520",
+                            "type": "down"
+                        },
+                        "1": {
+                            "children": {
+                                "0": {
+                                    "type": "varMenu",
+                                    "value": "var"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {"type": "literal"},
+                                        "1": {"type": "literal"}
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "578",
+                                    "type": "reportSum"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "577",
+                            "type": "doSetVar"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "var"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1"
+            ],
+            "id": "fbea6270-12be-4611-bfe2-ed747f838c5c",
+            "type": "customBlock",
+            "value": "Squiral maker %s"
+        },
+        "2": {
+            "type": "varDec",
+            "value": "length"
+        },
+        "3": {
+            "type": "varDec",
+            "value": "var"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2",
+        "3"
+    ],
+    "weight": 3,
+    "id": "ead12307-e4cd-4d20-aacf-2cf7a4006d16",
+    "type": "Snap!shot"
+}

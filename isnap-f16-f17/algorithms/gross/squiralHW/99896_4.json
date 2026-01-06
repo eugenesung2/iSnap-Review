@@ -1,0 +1,284 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "986",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "children": {"0": {
+                                "type": "literal",
+                                "value": "6"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "985",
+                            "type": "evaluateCustomBlock",
+                            "value": "Number of times Squiral Rotates %s"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "id": "1030",
+                            "type": "down"
+                        },
+                        "1": {
+                            "children": {
+                                "0": {
+                                    "type": "varMenu",
+                                    "value": "Numba"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "10"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "956",
+                            "type": "doSetVar"
+                        },
+                        "2": {
+                            "children": {
+                                "0": {
+                                    "id": "904",
+                                    "type": "var",
+                                    "value": "Rotate"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "children": {"0": {
+                                                "children": {
+                                                    "0": {
+                                                        "type": "literal",
+                                                        "value": "10"
+                                                    },
+                                                    "1": {
+                                                        "id": "980",
+                                                        "type": "var",
+                                                        "value": "Numba"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1"
+                                                ],
+                                                "id": "976",
+                                                "type": "reportSum"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "948",
+                                            "type": "forward"
+                                        },
+                                        "1": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "949",
+                                            "type": "turn"
+                                        },
+                                        "2": {
+                                            "children": {"0": {
+                                                "children": {
+                                                    "0": {
+                                                        "type": "literal",
+                                                        "value": "20"
+                                                    },
+                                                    "1": {
+                                                        "id": "981",
+                                                        "type": "var",
+                                                        "value": "Numba"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1"
+                                                ],
+                                                "id": "977",
+                                                "type": "reportSum"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "950",
+                                            "type": "forward"
+                                        },
+                                        "3": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "951",
+                                            "type": "turn"
+                                        },
+                                        "4": {
+                                            "children": {"0": {
+                                                "children": {
+                                                    "0": {
+                                                        "type": "literal",
+                                                        "value": "30"
+                                                    },
+                                                    "1": {
+                                                        "id": "982",
+                                                        "type": "var",
+                                                        "value": "Numba"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1"
+                                                ],
+                                                "id": "978",
+                                                "type": "reportSum"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "952",
+                                            "type": "forward"
+                                        },
+                                        "5": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "953",
+                                            "type": "turn"
+                                        },
+                                        "6": {
+                                            "children": {"0": {
+                                                "children": {
+                                                    "0": {
+                                                        "type": "literal",
+                                                        "value": "40"
+                                                    },
+                                                    "1": {
+                                                        "id": "983",
+                                                        "type": "var",
+                                                        "value": "Numba"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1"
+                                                ],
+                                                "id": "979",
+                                                "type": "reportSum"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "954",
+                                            "type": "forward"
+                                        },
+                                        "7": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "955",
+                                            "type": "turn"
+                                        },
+                                        "8": {
+                                            "children": {
+                                                "0": {
+                                                    "type": "varMenu",
+                                                    "value": "Numba"
+                                                },
+                                                "1": {
+                                                    "type": "literal",
+                                                    "value": "1"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "975",
+                                            "type": "doChangeVar"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8"
+                                    ],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "903",
+                            "type": "doRepeat"
+                        },
+                        "3": {
+                            "id": "1171",
+                            "type": "up"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "Rotate"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1"
+            ],
+            "id": "c87f47fb-e5de-4bf8-a4a8-935c6897e416",
+            "type": "customBlock",
+            "value": "Number of times Squiral Rotates %s"
+        },
+        "2": {
+            "type": "varDec",
+            "value": "Numba"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "id": "a56e6191-bca6-4283-a8c3-b3f7d9202278",
+    "type": "Snap!shot",
+    "error": 0.1899863143856171
+}

@@ -1,0 +1,161 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "338",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "children": {"0": {
+                                "type": "literal",
+                                "value": "10"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "337",
+                            "type": "evaluateCustomBlock",
+                            "value": "Squiral Number of Rotations %s"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "children": {
+                                "0": {
+                                    "type": "literal",
+                                    "value": "0"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "0"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "653",
+                            "type": "gotoXY"
+                        },
+                        "1": {
+                            "id": "244",
+                            "type": "clear"
+                        },
+                        "2": {
+                            "id": "278",
+                            "type": "down"
+                        },
+                        "3": {
+                            "children": {
+                                "0": {
+                                    "children": {
+                                        "0": {
+                                            "type": "var",
+                                            "value": "Number of rotations"
+                                        },
+                                        "1": {
+                                            "type": "literal",
+                                            "value": "10"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "2442",
+                                    "type": "reportModulus"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "200"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "600",
+                                            "type": "changeXPosition"
+                                        },
+                                        "1": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "579",
+                                            "type": "turn"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "382",
+                            "type": "doRepeat"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "Number of Rotations"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1"
+            ],
+            "id": "08a8b780-ef51-4c4c-9cca-334b63e8fabb",
+            "type": "customBlock",
+            "value": "Squiral Number of Rotations %s"
+        },
+        "2": {
+            "children": {"0": {"type": "script"}},
+            "childrenOrder": ["0"],
+            "id": "b32d1f11-9224-43e9-8bce-5ab27b3861be",
+            "type": "customBlock",
+            "value": "For"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "id": "b54e8b78-bbc2-4582-9e04-b8d8f09caeb0",
+    "type": "Snap!shot",
+    "error": 0.17069066427027538
+}

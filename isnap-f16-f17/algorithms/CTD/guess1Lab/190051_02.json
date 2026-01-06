@@ -1,0 +1,48 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "189",
+                            "type": "receiveGo"
+                        },
+                        "1": {"type": "doSayFor"},
+                        "2": {
+                            "children": {"0": {"type": "literal"}},
+                            "childrenOrder": ["0"],
+                            "id": "190",
+                            "type": "doAsk"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "type": "varDec",
+            "value": "X"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1"
+    ],
+    "weight": 1,
+    "id": "06bd0428-5964-42f1-b669-e9b4404f4521",
+    "type": "Snap!shot"
+}

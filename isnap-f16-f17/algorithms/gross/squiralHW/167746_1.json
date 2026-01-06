@@ -1,0 +1,222 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "219",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "children": {"0": {
+                                "type": "literal",
+                                "value": "5"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "220",
+                            "type": "evaluateCustomBlock",
+                            "value": "drawSquiral How many times? %s"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {"type": "down"},
+                        "1": {"type": "gotoXY"},
+                        "2": {
+                            "id": "376",
+                            "type": "clear"
+                        },
+                        "3": {
+                            "children": {
+                                "0": {
+                                    "type": "varMenu",
+                                    "value": "sideLength"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "100"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "377",
+                            "type": "doSetVar"
+                        },
+                        "4": {
+                            "children": {
+                                "0": {
+                                    "id": "380",
+                                    "type": "var",
+                                    "value": "numOfRotation"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "children": {
+                                                "0": {
+                                                    "type": "literal",
+                                                    "value": "3"
+                                                },
+                                                "1": {
+                                                    "children": {
+                                                        "0": {
+                                                            "children": {"0": {
+                                                                "id": "383",
+                                                                "type": "var",
+                                                                "value": "sideLength"
+                                                            }},
+                                                            "childrenOrder": ["0"],
+                                                            "id": "382",
+                                                            "type": "forward"
+                                                        },
+                                                        "1": {
+                                                            "children": {"0": {
+                                                                "type": "literal",
+                                                                "value": "90"
+                                                            }},
+                                                            "childrenOrder": ["0"],
+                                                            "id": "384",
+                                                            "type": "turn"
+                                                        }
+                                                    },
+                                                    "childrenOrder": [
+                                                        "0",
+                                                        "1"
+                                                    ],
+                                                    "type": "script"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "381",
+                                            "type": "doRepeat"
+                                        },
+                                        "1": {
+                                            "children": {
+                                                "0": {
+                                                    "type": "varMenu",
+                                                    "value": "sideLength"
+                                                },
+                                                "1": {
+                                                    "children": {
+                                                        "0": {
+                                                            "id": "387",
+                                                            "type": "var",
+                                                            "value": "sideLength"
+                                                        },
+                                                        "1": {
+                                                            "type": "literal",
+                                                            "value": "50"
+                                                        }
+                                                    },
+                                                    "childrenOrder": [
+                                                        "0",
+                                                        "1"
+                                                    ],
+                                                    "id": "386",
+                                                    "type": "reportDifference"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "385",
+                                            "type": "doChangeVar"
+                                        },
+                                        "2": {
+                                            "children": {"0": {
+                                                "id": "389",
+                                                "type": "var",
+                                                "value": "sideLength"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "388",
+                                            "type": "forward"
+                                        },
+                                        "3": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "390",
+                                            "type": "turn"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1",
+                                        "2",
+                                        "3"
+                                    ],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "379",
+                            "type": "doRepeat"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "numOfRotation"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1"
+            ],
+            "id": "00d43507-c6cc-4122-91f6-f49cfea3ece9",
+            "type": "customBlock",
+            "value": "drawSquiral How many times? %s"
+        },
+        "2": {
+            "type": "varDec",
+            "value": "sideLength"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "id": "dd7e1cd5-c889-4cdf-a54d-e9eb35c3b197",
+    "type": "Snap!shot",
+    "error": 0.22663327383592238
+}

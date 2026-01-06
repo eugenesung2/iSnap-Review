@@ -1,0 +1,433 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {
+                    "0": {
+                        "children": {
+                            "0": {
+                                "id": "145",
+                                "type": "receiveGo"
+                            },
+                            "1": {
+                                "children": {
+                                    "0": {
+                                        "type": "varMenu",
+                                        "value": "Guesses"
+                                    },
+                                    "1": {
+                                        "type": "literal",
+                                        "value": "0"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1"
+                                ],
+                                "id": "254",
+                                "type": "doSetVar"
+                            },
+                            "2": {
+                                "children": {
+                                    "0": {"type": "literal"},
+                                    "1": {
+                                        "type": "literal",
+                                        "value": "2"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1"
+                                ],
+                                "id": "111",
+                                "type": "doSayFor"
+                            },
+                            "3": {
+                                "children": {"0": {"type": "literal"}},
+                                "childrenOrder": ["0"],
+                                "id": "146",
+                                "type": "doAsk"
+                            },
+                            "4": {
+                                "children": {
+                                    "0": {
+                                        "children": {
+                                            "0": {
+                                                "id": "312",
+                                                "type": "getLastAnswer"
+                                            },
+                                            "1": {"type": "literal"}
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "id": "303",
+                                        "type": "reportEquals"
+                                    },
+                                    "1": {
+                                        "children": {"0": {
+                                            "children": {
+                                                "0": {"type": "literal"},
+                                                "1": {
+                                                    "type": "literal",
+                                                    "value": "2"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "148",
+                                            "type": "doSayFor"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "type": "script"
+                                    },
+                                    "2": {
+                                        "children": {"0": {
+                                            "children": {
+                                                "0": {"type": "literal"},
+                                                "1": {
+                                                    "type": "literal",
+                                                    "value": "2"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "311",
+                                            "type": "doSayFor"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "type": "script"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1",
+                                    "2"
+                                ],
+                                "id": "302",
+                                "type": "doIfElse"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1",
+                            "2",
+                            "3",
+                            "4"
+                        ],
+                        "type": "script"
+                    },
+                    "1": {
+                        "children": {
+                            "0": {
+                                "children": {
+                                    "0": {
+                                        "type": "varMenu",
+                                        "value": "Number"
+                                    },
+                                    "1": {
+                                        "children": {
+                                            "0": {
+                                                "type": "literal",
+                                                "value": "1"
+                                            },
+                                            "1": {
+                                                "type": "literal",
+                                                "value": "10"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "id": "627",
+                                        "type": "reportRandom"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1"
+                                ],
+                                "id": "626",
+                                "type": "doSetVar"
+                            },
+                            "1": {
+                                "children": {"0": {"type": "literal"}},
+                                "childrenOrder": ["0"],
+                                "id": "608",
+                                "type": "doAsk"
+                            },
+                            "2": {
+                                "children": {
+                                    "0": {
+                                        "children": {
+                                            "0": {
+                                                "id": "607",
+                                                "type": "getLastAnswer"
+                                            },
+                                            "1": {
+                                                "children": {
+                                                    "0": {
+                                                        "children": {
+                                                            "0": {
+                                                                "type": "literal",
+                                                                "value": "1"
+                                                            },
+                                                            "1": {
+                                                                "type": "literal",
+                                                                "value": "10"
+                                                            }
+                                                        },
+                                                        "childrenOrder": [
+                                                            "0",
+                                                            "1"
+                                                        ],
+                                                        "id": "603",
+                                                        "type": "reportRandom"
+                                                    },
+                                                    "1": {
+                                                        "id": "601",
+                                                        "type": "var",
+                                                        "value": "Number"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1"
+                                                ],
+                                                "id": "606",
+                                                "type": "reportEquals"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "id": "604",
+                                        "type": "reportEquals"
+                                    },
+                                    "1": {
+                                        "children": {
+                                            "0": {
+                                                "children": {
+                                                    "0": {
+                                                        "children": {
+                                                            "0": {
+                                                                "id": "615",
+                                                                "type": "getLastAnswer"
+                                                            },
+                                                            "1": {
+                                                                "id": "617",
+                                                                "type": "var",
+                                                                "value": "Number"
+                                                            }
+                                                        },
+                                                        "childrenOrder": [
+                                                            "0",
+                                                            "1"
+                                                        ],
+                                                        "id": "613",
+                                                        "type": "reportLessThan"
+                                                    },
+                                                    "1": {
+                                                        "children": {"0": {
+                                                            "children": {
+                                                                "0": {"type": "literal"},
+                                                                "1": {
+                                                                    "type": "literal",
+                                                                    "value": "2"
+                                                                }
+                                                            },
+                                                            "childrenOrder": [
+                                                                "0",
+                                                                "1"
+                                                            ],
+                                                            "id": "619",
+                                                            "type": "doSayFor"
+                                                        }},
+                                                        "childrenOrder": ["0"],
+                                                        "type": "script"
+                                                    },
+                                                    "2": {
+                                                        "children": {"0": {
+                                                            "children": {
+                                                                "0": {
+                                                                    "type": "varMenu",
+                                                                    "value": "Guesses"
+                                                                },
+                                                                "1": {
+                                                                    "type": "literal",
+                                                                    "value": "1"
+                                                                }
+                                                            },
+                                                            "childrenOrder": [
+                                                                "0",
+                                                                "1"
+                                                            ],
+                                                            "id": "621",
+                                                            "type": "doChangeVar"
+                                                        }},
+                                                        "childrenOrder": ["0"],
+                                                        "type": "script"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1",
+                                                    "2"
+                                                ],
+                                                "id": "600",
+                                                "type": "doIfElse"
+                                            },
+                                            "1": {
+                                                "children": {
+                                                    "0": {
+                                                        "children": {
+                                                            "0": {
+                                                                "id": "618",
+                                                                "type": "var",
+                                                                "value": "Number"
+                                                            },
+                                                            "1": {
+                                                                "type": "var",
+                                                                "value": "Random number between 1 and 10"
+                                                            }
+                                                        },
+                                                        "childrenOrder": [
+                                                            "0",
+                                                            "1"
+                                                        ],
+                                                        "id": "614",
+                                                        "type": "reportLessThan"
+                                                    },
+                                                    "1": {
+                                                        "children": {"0": {
+                                                            "children": {
+                                                                "0": {"type": "literal"},
+                                                                "1": {
+                                                                    "type": "literal",
+                                                                    "value": "2"
+                                                                }
+                                                            },
+                                                            "childrenOrder": [
+                                                                "0",
+                                                                "1"
+                                                            ],
+                                                            "id": "620",
+                                                            "type": "doSayFor"
+                                                        }},
+                                                        "childrenOrder": ["0"],
+                                                        "type": "script"
+                                                    },
+                                                    "2": {
+                                                        "children": {"0": {
+                                                            "children": {
+                                                                "0": {
+                                                                    "type": "varMenu",
+                                                                    "value": "Guesses"
+                                                                },
+                                                                "1": {
+                                                                    "type": "literal",
+                                                                    "value": "1"
+                                                                }
+                                                            },
+                                                            "childrenOrder": [
+                                                                "0",
+                                                                "1"
+                                                            ],
+                                                            "id": "622",
+                                                            "type": "doChangeVar"
+                                                        }},
+                                                        "childrenOrder": ["0"],
+                                                        "type": "script"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1",
+                                                    "2"
+                                                ],
+                                                "id": "612",
+                                                "type": "doIfElse"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "type": "script"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1"
+                                ],
+                                "id": "605",
+                                "type": "doUntil"
+                            },
+                            "3": {
+                                "children": {
+                                    "0": {"type": "literal"},
+                                    "1": {
+                                        "type": "literal",
+                                        "value": "2"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1"
+                                ],
+                                "id": "625",
+                                "type": "doSayFor"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1",
+                            "2",
+                            "3"
+                        ],
+                        "type": "script"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1"
+                ],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "type": "varDec",
+            "value": "Guesses"
+        },
+        "2": {
+            "type": "varDec",
+            "value": "Number"
+        },
+        "3": {
+            "type": "varDec",
+            "value": "Random number"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2",
+        "3"
+    ],
+    "id": "66eb02c3-ba90-41f0-a4a3-4a84df420b11",
+    "type": "Snap!shot",
+    "error": 0.0012158259956738375
+}

@@ -1,0 +1,139 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {"0": {
+                "children": {
+                    "0": {
+                        "id": "79",
+                        "type": "down"
+                    },
+                    "1": {
+                        "children": {
+                            "0": {
+                                "type": "varMenu",
+                                "value": "A"
+                            },
+                            "1": {
+                                "type": "literal",
+                                "value": "5"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "id": "85",
+                        "type": "doSetVar"
+                    },
+                    "2": {
+                        "children": {
+                            "0": {
+                                "children": {
+                                    "0": {"type": "literal"},
+                                    "1": {"type": "literal"}
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1"
+                                ],
+                                "id": "175",
+                                "type": "reportProduct"
+                            },
+                            "1": {
+                                "children": {
+                                    "0": {
+                                        "children": {"0": {
+                                            "id": "192",
+                                            "type": "var",
+                                            "value": "A"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "id": "183",
+                                        "type": "forward"
+                                    },
+                                    "1": {
+                                        "children": {
+                                            "0": {
+                                                "type": "varMenu",
+                                                "value": "A"
+                                            },
+                                            "1": {
+                                                "type": "literal",
+                                                "value": "5"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "id": "223",
+                                        "type": "doChangeVar"
+                                    },
+                                    "2": {
+                                        "children": {"0": {
+                                            "type": "literal",
+                                            "value": "90"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "id": "215",
+                                        "type": "turn"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1",
+                                    "2"
+                                ],
+                                "type": "script"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "id": "161",
+                        "type": "doRepeat"
+                    },
+                    "3": {
+                        "id": "171",
+                        "type": "up"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "type": "script"
+            }},
+            "childrenOrder": ["0"],
+            "id": "284c19a0-de8f-4fc6-87c4-3fc58af9217d",
+            "type": "customBlock",
+            "value": "Draw a Squiral"
+        },
+        "2": {
+            "type": "varDec",
+            "value": "A"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "weight": 3,
+    "id": "7d4e69e8-025c-4940-9b44-9245586eafaa",
+    "type": "Snap!shot"
+}

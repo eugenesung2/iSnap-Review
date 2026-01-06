@@ -1,0 +1,159 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "74",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "children": {
+                                "0": {"type": "literal"},
+                                "1": {"type": "literal"}
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "689",
+                            "type": "evaluateCustomBlock",
+                            "value": "squiral %s %s"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "id": "741",
+                            "type": "down"
+                        },
+                        "1": {
+                            "children": {
+                                "0": {
+                                    "children": {
+                                        "0": {
+                                            "type": "literal",
+                                            "value": "4"
+                                        },
+                                        "1": {
+                                            "id": "744",
+                                            "type": "var",
+                                            "value": "rotaions"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "743",
+                                    "type": "reportProduct"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "10"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "745",
+                                            "type": "forward"
+                                        },
+                                        "1": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "746",
+                                            "type": "turn"
+                                        },
+                                        "2": {
+                                            "children": {
+                                                "0": {
+                                                    "type": "varMenu",
+                                                    "value": "Length"
+                                                },
+                                                "1": {
+                                                    "type": "literal",
+                                                    "value": "25"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "747",
+                                            "type": "doChangeVar"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1",
+                                        "2"
+                                    ],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "742",
+                            "type": "doRepeat"
+                        },
+                        "2": {"type": "up"}
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "rotaions"
+                },
+                "2": {
+                    "type": "varDec",
+                    "value": "Length"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1",
+                "2"
+            ],
+            "id": "c5eb0578-ef90-4fdc-a075-ec22c59217c1",
+            "type": "customBlock",
+            "value": "squiral %s %s"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1"
+    ],
+    "id": "95d5d616-14e0-4594-af6c-3c98afdc5b41",
+    "type": "Snap!shot",
+    "error": 0.05307196605647241
+}

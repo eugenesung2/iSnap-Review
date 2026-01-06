@@ -1,0 +1,109 @@
+{
+    "children": {"0": {
+        "children": {"0": {
+            "children": {"0": {
+                "children": {
+                    "0": {
+                        "id": "58",
+                        "type": "receiveGo"
+                    },
+                    "1": {
+                        "children": {
+                            "0": {"type": "literal"},
+                            "1": {
+                                "type": "literal",
+                                "value": "1"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "id": "76",
+                        "type": "doSayFor"
+                    },
+                    "2": {
+                        "children": {"0": {"type": "literal"}},
+                        "childrenOrder": ["0"],
+                        "id": "94",
+                        "type": "doAsk"
+                    },
+                    "3": {
+                        "children": {"0": {
+                            "children": {"0": {
+                                "children": {
+                                    "0": {"type": "literal"},
+                                    "1": {
+                                        "id": "137",
+                                        "type": "getLastAnswer"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1"
+                                ],
+                                "type": "list"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "136",
+                            "type": "reportJoinWords"
+                        }},
+                        "childrenOrder": ["0"],
+                        "id": "134",
+                        "type": "bubble"
+                    },
+                    "4": {
+                        "children": {"0": {
+                            "children": {
+                                "0": {
+                                    "type": "literal",
+                                    "value": "1"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "10"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "182",
+                            "type": "reportRandom"
+                        }},
+                        "childrenOrder": ["0"],
+                        "id": "183",
+                        "type": "doWaitUntil"
+                    },
+                    "5": {
+                        "children": {"0": {"type": "literal"}},
+                        "childrenOrder": ["0"],
+                        "id": "138",
+                        "type": "doAsk"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "type": "script"
+            }},
+            "childrenOrder": ["0"],
+            "id": "Sprite",
+            "type": "sprite",
+            "value": "Sprite"
+        }},
+        "childrenOrder": ["0"],
+        "id": "stage",
+        "type": "stage",
+        "value": "Stage"
+    }},
+    "childrenOrder": ["0"],
+    "id": "d166e87f-a82a-4e0c-b5fe-0d4c0483efc6",
+    "type": "Snap!shot",
+    "error": 0.013205008312280756
+}

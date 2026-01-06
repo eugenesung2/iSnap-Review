@@ -1,0 +1,134 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {"0": {
+                        "id": "58",
+                        "type": "receiveGo"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "id": "88",
+                            "type": "clear"
+                        },
+                        "1": {
+                            "id": "89",
+                            "type": "down"
+                        },
+                        "2": {
+                            "children": {
+                                "0": {
+                                    "type": "literal",
+                                    "value": "2"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "10"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "191",
+                                            "type": "forward"
+                                        },
+                                        "1": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "192",
+                                            "type": "turn"
+                                        },
+                                        "2": {
+                                            "children": {
+                                                "0": {
+                                                    "type": "varMenu",
+                                                    "value": "Length"
+                                                },
+                                                "1": {
+                                                    "type": "literal",
+                                                    "value": "25"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "223",
+                                            "type": "doChangeVar"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1",
+                                        "2"
+                                    ],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "90",
+                            "type": "doRepeat"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "Rotations"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1"
+            ],
+            "id": "2400f6f2-f2af-4462-81b5-220b4dbb5fd8",
+            "type": "customBlock",
+            "value": "Squiral %s"
+        },
+        "2": {
+            "type": "varDec",
+            "value": "Rotations"
+        },
+        "3": {
+            "type": "varDec",
+            "value": "Length"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2",
+        "3"
+    ],
+    "id": "eb94e0f0-de1c-4f9f-9c2c-1c030d015a5f",
+    "type": "Snap!shot",
+    "error": 0.02584956635834537
+}

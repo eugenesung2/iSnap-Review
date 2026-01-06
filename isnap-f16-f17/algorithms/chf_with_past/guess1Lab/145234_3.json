@@ -1,0 +1,110 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {
+                    "0": {
+                        "children": {
+                            "0": {
+                                "id": "251",
+                                "type": "receiveGo"
+                            },
+                            "1": {
+                                "children": {
+                                    "0": {
+                                        "type": "varMenu",
+                                        "value": "number choosen"
+                                    },
+                                    "1": {
+                                        "type": "literal",
+                                        "value": "10"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1"
+                                ],
+                                "id": "305",
+                                "type": "doSetVar"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "type": "script"
+                    },
+                    "1": {
+                        "children": {"0": {
+                            "children": {"0": {"type": "literal"}},
+                            "childrenOrder": ["0"],
+                            "id": "278",
+                            "type": "doAsk"
+                        }},
+                        "childrenOrder": ["0"],
+                        "type": "script"
+                    },
+                    "2": {
+                        "children": {"0": {
+                            "children": {
+                                "0": {
+                                    "type": "varMenu",
+                                    "value": "number choosen"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "type": "literal",
+                                            "value": "1"
+                                        },
+                                        "1": {
+                                            "type": "literal",
+                                            "value": "10"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "297",
+                                    "type": "reportEquals"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "279",
+                            "type": "doSetVar"
+                        }},
+                        "childrenOrder": ["0"],
+                        "type": "script"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1",
+                    "2"
+                ],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "type": "varDec",
+            "value": "number choosen"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1"
+    ],
+    "id": "02a8a191-f272-42d1-aa2e-594971f1b82a",
+    "type": "Snap!shot",
+    "error": 0.024044151956620453
+}

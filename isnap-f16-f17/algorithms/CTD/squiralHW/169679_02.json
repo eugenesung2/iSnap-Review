@@ -1,0 +1,220 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {
+                    "0": {
+                        "children": {
+                            "0": {
+                                "id": "58",
+                                "type": "receiveGo"
+                            },
+                            "1": {
+                                "id": "917",
+                                "type": "clear"
+                            },
+                            "2": {
+                                "children": {
+                                    "0": {
+                                        "type": "literal",
+                                        "value": "40"
+                                    },
+                                    "1": {
+                                        "type": "literal",
+                                        "value": "50"
+                                    },
+                                    "2": {
+                                        "type": "literal",
+                                        "value": "60"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1",
+                                    "2"
+                                ],
+                                "id": "578",
+                                "type": "evaluateCustomBlock",
+                                "value": "Draw a Squiral Rotations: %s Length: %s Length2: %s"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1",
+                            "2"
+                        ],
+                        "type": "script"
+                    },
+                    "1": {
+                        "children": {"0": {
+                            "children": {
+                                "0": {"type": "literal"},
+                                "1": {"type": "literal"}
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "1834",
+                            "type": "reportSum"
+                        }},
+                        "childrenOrder": ["0"],
+                        "type": "script"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1"
+                ],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "children": {
+                                "0": {
+                                    "type": "literal",
+                                    "value": "0"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "0"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "1788",
+                            "type": "gotoXY"
+                        },
+                        "1": {
+                            "id": "1789",
+                            "type": "down"
+                        },
+                        "2": {
+                            "children": {"0": {"type": "literal"}},
+                            "childrenOrder": ["0"],
+                            "id": "1790",
+                            "type": "setColor"
+                        },
+                        "3": {
+                            "children": {"0": {
+                                "id": "1792",
+                                "type": "var",
+                                "value": "h"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "1791",
+                            "type": "forward"
+                        },
+                        "4": {
+                            "children": {
+                                "0": {
+                                    "id": "1794",
+                                    "type": "var",
+                                    "value": "Rotations"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "1795",
+                                            "type": "turn"
+                                        },
+                                        "1": {
+                                            "children": {"0": {
+                                                "children": {
+                                                    "0": {
+                                                        "type": "literal",
+                                                        "value": "10"
+                                                    },
+                                                    "1": {
+                                                        "id": "1799",
+                                                        "type": "var",
+                                                        "value": "h"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1"
+                                                ],
+                                                "id": "1797",
+                                                "type": "reportSum"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "1796",
+                                            "type": "forward"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "1793",
+                            "type": "doRepeat"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "Rotations"
+                },
+                "2": {
+                    "type": "varDec",
+                    "value": "h"
+                },
+                "3": {
+                    "type": "varDec",
+                    "value": "g"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "id": "bc5c763e-cb12-48f6-97c8-74fc7681ca2b",
+            "type": "customBlock",
+            "value": "Draw a Squiral Rotations: %s Length: %s Length2: %s"
+        },
+        "2": {"type": "varDec"}
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "weight": 1,
+    "id": "0caddeec-8745-4996-a775-b85d6f9da818",
+    "type": "Snap!shot"
+}

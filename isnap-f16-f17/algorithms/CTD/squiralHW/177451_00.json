@@ -1,0 +1,101 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {"type": "receiveGo"},
+                        "1": {
+                            "id": "145",
+                            "type": "evaluateCustomBlock",
+                            "value": "Squiral"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {"0": {
+                "children": {
+                    "0": {
+                        "id": "148",
+                        "type": "down"
+                    },
+                    "1": {
+                        "children": {
+                            "0": {
+                                "type": "varMenu",
+                                "value": ""
+                            },
+                            "1": {
+                                "type": "literal",
+                                "value": "0"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "id": "149",
+                        "type": "doSetVar"
+                    },
+                    "2": {
+                        "children": {
+                            "0": {
+                                "type": "literal",
+                                "value": "10"
+                            },
+                            "1": {"type": "script"}
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "id": "150",
+                        "type": "doRepeat"
+                    },
+                    "3": {
+                        "id": "151",
+                        "type": "up"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "type": "script"
+            }},
+            "childrenOrder": ["0"],
+            "id": "ea097a40-298d-485d-8a5f-64a648419ab5",
+            "type": "customBlock",
+            "value": "Squiral"
+        },
+        "2": {
+            "type": "varDec",
+            "value": "Squiral"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "weight": 1,
+    "id": "9cdd1d3b-22bc-463e-8236-5c7dcd8e6be0",
+    "type": "Snap!shot"
+}

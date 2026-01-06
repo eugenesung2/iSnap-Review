@@ -1,0 +1,41 @@
+{
+    "children": {"0": {
+        "children": {"0": {
+            "children": {"0": {
+                "children": {
+                    "0": {
+                        "id": "135",
+                        "type": "receiveGo"
+                    },
+                    "1": {
+                        "children": {"0": {
+                            "type": "literal",
+                            "value": "4"
+                        }},
+                        "childrenOrder": ["0"],
+                        "id": "205",
+                        "type": "evaluateCustomBlock",
+                        "value": "draw square %s"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1"
+                ],
+                "type": "script"
+            }},
+            "childrenOrder": ["0"],
+            "id": "Sprite",
+            "type": "sprite",
+            "value": "Sprite"
+        }},
+        "childrenOrder": ["0"],
+        "id": "stage",
+        "type": "stage",
+        "value": "Stage"
+    }},
+    "childrenOrder": ["0"],
+    "weight": 1,
+    "id": "5273ed64-1463-47f4-b2f0-5e54edd39819",
+    "type": "Snap!shot"
+}

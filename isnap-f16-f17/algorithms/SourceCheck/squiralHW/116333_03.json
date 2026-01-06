@@ -1,0 +1,160 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "232",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "children": {"0": {
+                                "type": "literal",
+                                "value": "90"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "556",
+                            "type": "setHeading"
+                        },
+                        "2": {
+                            "children": {
+                                "0": {
+                                    "type": "literal",
+                                    "value": "10"
+                                },
+                                "1": {"type": "literal"}
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "231",
+                            "type": "evaluateCustomBlock",
+                            "value": "squiral %s %s"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "id": "66",
+                            "type": "down"
+                        },
+                        "1": {
+                            "children": {
+                                "0": {
+                                    "type": "var",
+                                    "value": "move"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "10"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "144",
+                                            "type": "forward"
+                                        },
+                                        "1": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "150",
+                                            "type": "turn"
+                                        },
+                                        "2": {
+                                            "children": {
+                                                "0": {
+                                                    "type": "varMenu",
+                                                    "value": "var"
+                                                },
+                                                "1": {
+                                                    "type": "literal",
+                                                    "value": "1"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "158",
+                                            "type": "doChangeVar"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1",
+                                        "2"
+                                    ],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "140",
+                            "type": "doRepeat"
+                        },
+                        "2": {
+                            "id": "167",
+                            "type": "up"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "var"
+                },
+                "2": {
+                    "type": "varDec",
+                    "value": "move"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1",
+                "2"
+            ],
+            "id": "46940acc-30cc-4cd8-82e9-c233835dd642",
+            "type": "customBlock",
+            "value": "squiral %s %s"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1"
+    ],
+    "weight": 0.16666666666666666,
+    "id": "2bc07245-f752-4933-9290-6e7797243bf8",
+    "type": "Snap!shot"
+}

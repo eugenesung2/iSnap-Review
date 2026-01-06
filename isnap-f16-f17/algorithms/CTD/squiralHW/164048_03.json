@@ -1,0 +1,250 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {
+                    "0": {
+                        "children": {
+                            "0": {
+                                "id": "420",
+                                "type": "receiveGo"
+                            },
+                            "1": {
+                                "children": {
+                                    "0": {
+                                        "type": "literal",
+                                        "value": "15"
+                                    },
+                                    "1": {
+                                        "type": "literal",
+                                        "value": "10"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1"
+                                ],
+                                "id": "400",
+                                "type": "evaluateCustomBlock",
+                                "value": "Squiral # of Times %s length %s"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "type": "script"
+                    },
+                    "1": {
+                        "children": {
+                            "0": {
+                                "children": {
+                                    "0": {
+                                        "id": "171",
+                                        "type": "down"
+                                    },
+                                    "1": {
+                                        "children": {
+                                            "0": {
+                                                "id": "173",
+                                                "type": "var",
+                                                "value": "Number"
+                                            },
+                                            "1": {
+                                                "children": {
+                                                    "0": {
+                                                        "children": {"0": {
+                                                            "type": "literal",
+                                                            "value": "10"
+                                                        }},
+                                                        "childrenOrder": ["0"],
+                                                        "id": "174",
+                                                        "type": "forward"
+                                                    },
+                                                    "1": {
+                                                        "children": {"0": {
+                                                            "type": "literal",
+                                                            "value": "90"
+                                                        }},
+                                                        "childrenOrder": ["0"],
+                                                        "id": "175",
+                                                        "type": "turn"
+                                                    },
+                                                    "2": {
+                                                        "children": {
+                                                            "0": {
+                                                                "type": "varMenu",
+                                                                "value": ""
+                                                            },
+                                                            "1": {
+                                                                "type": "literal",
+                                                                "value": "1"
+                                                            }
+                                                        },
+                                                        "childrenOrder": [
+                                                            "0",
+                                                            "1"
+                                                        ],
+                                                        "id": "176",
+                                                        "type": "doChangeVar"
+                                                    }
+                                                },
+                                                "childrenOrder": [
+                                                    "0",
+                                                    "1",
+                                                    "2"
+                                                ],
+                                                "type": "script"
+                                            }
+                                        },
+                                        "childrenOrder": [
+                                            "0",
+                                            "1"
+                                        ],
+                                        "id": "172",
+                                        "type": "doRepeat"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1"
+                                ],
+                                "type": "script"
+                            },
+                            "1": {
+                                "type": "varDec",
+                                "value": "Number"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "id": "e8db047c-56f6-4e10-9af8-30eeb1fc3dec",
+                        "type": "customBlock",
+                        "value": "Squiral Number of times %s"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1"
+                ],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "id": "425",
+                            "type": "clear"
+                        },
+                        "1": {
+                            "id": "426",
+                            "type": "down"
+                        },
+                        "2": {
+                            "children": {
+                                "0": {
+                                    "id": "428",
+                                    "type": "var",
+                                    "value": "Number of times"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "10"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "429",
+                                            "type": "forward"
+                                        },
+                                        "1": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "430",
+                                            "type": "turn"
+                                        },
+                                        "2": {
+                                            "children": {
+                                                "0": {
+                                                    "type": "varMenu",
+                                                    "value": "length"
+                                                },
+                                                "1": {
+                                                    "type": "literal",
+                                                    "value": "5"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "431",
+                                            "type": "doChangeVar"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1",
+                                        "2"
+                                    ],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "427",
+                            "type": "doRepeat"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "Number of times"
+                },
+                "2": {
+                    "type": "varDec",
+                    "value": "length"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1",
+                "2"
+            ],
+            "id": "05804a73-819f-4af6-97bd-7cddb9dabd2b",
+            "type": "customBlock",
+            "value": "Squiral # of Times %s length %s"
+        },
+        "2": {"type": "varDec"}
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "weight": 1,
+    "id": "fa8659b2-4a53-4f8f-82e8-29c527dc3672",
+    "type": "Snap!shot"
+}

@@ -1,0 +1,121 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "219",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "children": {"0": {
+                                "type": "literal",
+                                "value": "5"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "220",
+                            "type": "evaluateCustomBlock",
+                            "value": "drawSquiral How many times? %s"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "id": "376",
+                            "type": "clear"
+                        },
+                        "1": {
+                            "children": {
+                                "0": {
+                                    "type": "varMenu",
+                                    "value": "sideLength"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "100"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "377",
+                            "type": "doSetVar"
+                        },
+                        "2": {
+                            "id": "378",
+                            "type": "down"
+                        },
+                        "3": {
+                            "children": {
+                                "0": {
+                                    "type": "literal",
+                                    "value": "0"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "0"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "391",
+                            "type": "gotoXY"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "numOfRotation"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1"
+            ],
+            "id": "00d43507-c6cc-4122-91f6-f49cfea3ece9",
+            "type": "customBlock",
+            "value": "drawSquiral How many times? %s"
+        },
+        "2": {
+            "type": "varDec",
+            "value": "sideLength"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "weight": 1,
+    "id": "dd7e1cd5-c889-4cdf-a54d-e9eb35c3b197",
+    "type": "Snap!shot"
+}

@@ -1,0 +1,1176 @@
+{
+    "node_types": {
+        "doStopAllSounds": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "receiveKey": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doWearNextCostume": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "setYPosition": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doStopThis": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "for_*_to__": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "2": ["REPORTER"],
+            "3": [
+                "REPORTER",
+                "script"
+            ],
+            "count": 4,
+            "type": "fixed"
+        },
+        "yPosition": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reportCallCC": {
+            "0": ["RING"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportMonadic": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "doCallCC": {
+            "0": [
+                "REPORTER",
+                "RING"
+            ],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doThink": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportNot": {
+            "0": [
+                "REPORTER",
+                "evaluateCustomBlock"
+            ],
+            "count": 1,
+            "type": "fixed"
+        },
+        "getCostumeIdx": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reportListContainsItem": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "doThinkFor": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "doShowVar": {
+            "0": ["varMenu"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "goBack": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportDate": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doRest": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "if_then_else_": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "2": ["REPORTER"],
+            "count": 3,
+            "type": "fixed"
+        },
+        "doInsertInList": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "2": ["REPORTER"],
+            "count": 3,
+            "type": "fixed"
+        },
+        "reportMouseDown": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "receiveCondition": {
+            "0": [
+                "REPORTER",
+                "RING"
+            ],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportRandom": {
+            "0": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "1": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "count": 2,
+            "type": "fixed"
+        },
+        "var": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "doIf": {
+            "0": ["REPORTER"],
+            "1": ["script"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportIsIdentical": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "changeBrightness": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "script": {
+            "type": "flexible",
+            "permitted_children": [
+                "REPORTER",
+                "RING",
+                "COMMAND",
+                "HAT",
+                "evaluateCustomBlock"
+            ]
+        },
+        "changeXPosition": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportStringSize": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportRound": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "setHue": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "varMenu": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "combinewith_itemsof_": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "getLastAnswer": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reportQuotient": {
+            "0": ["REPORTER"],
+            "1": [
+                "REPORTER",
+                "evaluateCustomBlock"
+            ],
+            "count": 2,
+            "type": "fixed"
+        },
+        "changeSize": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportListItem": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "evaluate": {
+            "0": [
+                "REPORTER",
+                "RING"
+            ],
+            "1": [
+                "REPORTER",
+                "list"
+            ],
+            "count": 2,
+            "type": "fixed"
+        },
+        "setXPosition": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "joinwords_": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "xPosition": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "doWait": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "getTempo": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "turn": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doDeleteFromList": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "bounceOffEdge": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reportDistanceTo": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "literal": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "label_ofsize_": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "doChangeVar": {
+            "0": ["varMenu"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "getLastMessage": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "setBrightness": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "bubble": {
+            "0": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doBroadcast": {
+            "0": [
+                "REPORTER",
+                "RING"
+            ],
+            "count": 1,
+            "type": "fixed"
+        },
+        "playSound": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doPauseAll": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "sprite": {
+            "type": "flexible",
+            "permitted_children": [
+                "varDec",
+                "customBlock",
+                "script"
+            ]
+        },
+        "reportLessThan": {
+            "0": [
+                "REPORTER",
+                "evaluateCustomBlock"
+            ],
+            "1": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "count": 2,
+            "type": "fixed"
+        },
+        "doAsk": {
+            "0": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doWarp": {
+            "0": ["script"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportKeyPressed": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportDifference": {
+            "0": [
+                "REPORTER",
+                "RING"
+            ],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportColorIsTouchingColor": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "doAddToList": {
+            "0": ["REPORTER"],
+            "1": [
+                "REPORTER",
+                "RING"
+            ],
+            "count": 2,
+            "type": "fixed"
+        },
+        "forward": {
+            "0": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportURL": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doForever": {
+            "0": ["script"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doSetTempo": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "hide": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reportCONS": {
+            "0": [
+                "REPORTER",
+                "evaluateCustomBlock"
+            ],
+            "1": [
+                "REPORTER",
+                "evaluateCustomBlock"
+            ],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportIsA": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "stage": {
+            "type": "flexible",
+            "permitted_children": [
+                "sprite",
+                "varDec",
+                "customBlock",
+                "script"
+            ]
+        },
+        "doIfElse": {
+            "0": [
+                "REPORTER",
+                "RING"
+            ],
+            "1": ["script"],
+            "2": ["script"],
+            "count": 3,
+            "type": "fixed"
+        },
+        "doRepeat": {
+            "0": ["REPORTER"],
+            "1": ["script"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "doDeclareVariables": {
+            "0": ["list"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doHideVar": {
+            "0": ["varMenu"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "comeToFront": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "floodFill": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reportTextSplit": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportProduct": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportSum": {
+            "0": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "1": [
+                "REPORTER",
+                "RING"
+            ],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportNewList": {
+            "0": ["list"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "down": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reifyPredicate": {
+            "type": "flexible",
+            "permitted_children": [
+                "list",
+                "script"
+            ]
+        },
+        "list*arrowRightword_": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "receiveInteraction": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "changeHue": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "receiveGo": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "up": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reportModulus": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportAttributeOf": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "doWaitUntil": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doBroadcastAndWait": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportListLength": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doChangeTempo": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doSwitchToCostume": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "Snap!shot": {
+            "type": "flexible",
+            "permitted_children": [
+                "stage",
+                "customBlock",
+                "varDec"
+            ]
+        },
+        "receiveMessage": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reifyScript": {
+            "0": ["list"],
+            "1": ["script"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "setScale": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doUntil": {
+            "0": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "1": ["script"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportFalse": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "list": {
+            "type": "flexible",
+            "permitted_children": [
+                "REPORTER",
+                "varMenu",
+                "RING",
+                "evaluateCustomBlock"
+            ]
+        },
+        "reportCDR": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doGlide": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "2": ["REPORTER"],
+            "count": 3,
+            "type": "fixed"
+        },
+        "clearEffects": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "changeEffect": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "gotoXY": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "doSayFor": {
+            "0": [
+                "REPORTER",
+                "RING"
+            ],
+            "1": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "count": 2,
+            "type": "fixed"
+        },
+        "empty*_": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doRun": {
+            "0": [
+                "REPORTER",
+                "RING"
+            ],
+            "1": ["list"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "getScale": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "doGotoObject": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doFaceTowards": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportTouchingObject": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "varDec": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reportOr": {
+            "0": ["REPORTER"],
+            "1": [
+                "REPORTER",
+                "RING"
+            ],
+            "count": 2,
+            "type": "fixed"
+        },
+        "evaluateCustomBlock": {
+            "type": "flexible",
+            "permitted_children": [
+                "REPORTER",
+                "RING",
+                "list",
+                "evaluateCustomBlock",
+                "script"
+            ]
+        },
+        "getTimer": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reportBoolean": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doSetFastTracking": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "createClone": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "show": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "changeScale": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "removeClone": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "doPlaySoundUntilDone": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "changeYPosition": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "setSize": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportMouseX": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "receiveOnClone": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reifyReporter": {
+            "type": "flexible",
+            "permitted_children": [
+                "list",
+                "script"
+            ]
+        },
+        "turnLeft": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doStamp": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reportJSFunction": {
+            "0": ["list"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportMouseY": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "doPlayNote": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportIsFastTracking": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "direction": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "doSetVar": {
+            "0": ["varMenu"],
+            "1": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "count": 2,
+            "type": "fixed"
+        },
+        "setEffect": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "doReport": {
+            "0": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "count": 1,
+            "type": "fixed"
+        },
+        "setHeading": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "keepitemssuchthat_from_": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "clear": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "customBlock": {
+            "type": "flexible",
+            "permitted_children": [
+                "varDec",
+                "script"
+            ]
+        },
+        "reportTouchingColor": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doStopOthers": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportJoinWords": {
+            "0": [
+                "REPORTER",
+                "list",
+                "evaluateCustomBlock"
+            ],
+            "count": 1,
+            "type": "fixed"
+        },
+        "tell_to_": {
+            "0": ["REPORTER"],
+            "1": ["script"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "doResetTimer": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "fork": {
+            "0": ["RING"],
+            "1": ["list"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "setColor": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "reportAnd": {
+            "0": [
+                "REPORTER",
+                "evaluateCustomBlock"
+            ],
+            "1": ["REPORTER"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "map_over_": {
+            "0": ["RING"],
+            "1": ["list"],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportEquals": {
+            "0": [
+                "REPORTER",
+                "RING",
+                "evaluateCustomBlock"
+            ],
+            "1": [
+                "REPORTER",
+                "evaluateCustomBlock"
+            ],
+            "count": 2,
+            "type": "fixed"
+        },
+        "reportTrue": {
+            "count": 0,
+            "type": "fixed"
+        },
+        "reportUnicode": {
+            "0": ["REPORTER"],
+            "count": 1,
+            "type": "fixed"
+        },
+        "doReplaceInList": {
+            "0": ["REPORTER"],
+            "1": ["REPORTER"],
+            "2": ["REPORTER"],
+            "count": 3,
+            "type": "fixed"
+        }
+    },
+    "special_types": [
+        "stage",
+        "varMenu",
+        "sprite",
+        "list",
+        "customBlock",
+        "varDec",
+        "evaluateCustomBlock",
+        "script"
+    ],
+    "root": ["Snap!shot"],
+    "categories": {
+        "REPORTER": [
+            "ask_for_",
+            "reportTextSplit",
+            "reportProduct",
+            "yPosition",
+            "reportSum",
+            "reportCallCC",
+            "reportMonadic",
+            "reportNewList",
+            "reportNot",
+            "list*arrowRightword_",
+            "getCostumeIdx",
+            "reportListContainsItem",
+            "reportDate",
+            "reportModulus",
+            "if_then_else_",
+            "sentence*arrowRightlist_",
+            "reportAttributeOf",
+            "reportListLength",
+            "reportMouseDown",
+            "reportUnicodeAsLetter",
+            "reportRandom",
+            "var",
+            "reportGreaterThan",
+            "reportSounds",
+            "reportIsIdentical",
+            "reportFalse",
+            "reportCDR",
+            "reportRound",
+            "reportStringSize",
+            "empty*_",
+            "getScale",
+            "reportLastAnswer",
+            "combinewith_itemsof_",
+            "getLastAnswer",
+            "reportTouchingObject",
+            "reportQuotient",
+            "reportOr",
+            "evaluate",
+            "reportListItem",
+            "evaluateCustomBlock",
+            "getTimer",
+            "reportBoolean",
+            "xPosition",
+            "reportCostumes",
+            "joinwords_",
+            "reportMappedCode",
+            "colorFiltered",
+            "reportLetter",
+            "reportStackSize",
+            "reportTextFunction",
+            "reportFrameCount",
+            "getTempo",
+            "reportDistanceTo",
+            "literal",
+            "word*arrowRightlist_",
+            "reportMouseX",
+            "getLastMessage",
+            "reportLessThan",
+            "reportKeyPressed",
+            "reportJSFunction",
+            "reportMouseY",
+            "reportTimer",
+            "list*arrowRightsentence_",
+            "reportIsFastTracking",
+            "direction",
+            "reportColorIsTouchingColor",
+            "reportDifference",
+            "keepitemssuchthat_from_",
+            "reportURL",
+            "reportTouchingColor",
+            "reportJoinWords",
+            "reportGet",
+            "reportIsA",
+            "reportCONS",
+            "reportAnd",
+            "reportTypeOf",
+            "map_over_",
+            "reportMap",
+            "reportThreadCount",
+            "reportEquals",
+            "catch__",
+            "reportTrue",
+            "reportUnicode"
+        ],
+        "RING": [
+            "reifyScript",
+            "reifyReporter",
+            "reifyPredicate"
+        ],
+        "COMMAND": [
+            "doStopAllSounds",
+            "throw__",
+            "doWearNextCostume",
+            "setYPosition",
+            "for_*_to__",
+            "doStopThis",
+            "doThink",
+            "doCallCC",
+            "doShowTable",
+            "doThinkFor",
+            "goBack",
+            "doShowVar",
+            "doRest",
+            "doInsertInList",
+            "doIf",
+            "doMapCodeOrHeader",
+            "changeBrightness",
+            "foreach_of__",
+            "changeXPosition",
+            "setHue",
+            "changeSize",
+            "setXPosition",
+            "log",
+            "doWait",
+            "turn",
+            "doDeleteFromList",
+            "bounceOffEdge",
+            "label_ofsize_",
+            "doChangeVar",
+            "setBrightness",
+            "bubble",
+            "playSound",
+            "doBroadcast",
+            "doPauseAll",
+            "doMapListCode",
+            "doWarp",
+            "doAsk",
+            "doAddToList",
+            "forward",
+            "doForever",
+            "doSetTempo",
+            "hide",
+            "doIfElse",
+            "doRepeat",
+            "doForEach",
+            "doDeclareVariables",
+            "doHideVar",
+            "comeToFront",
+            "floodFill",
+            "down",
+            "changeHue",
+            "up",
+            "doWaitUntil",
+            "doBroadcastAndWait",
+            "doChangeTempo",
+            "doSwitchToCostume",
+            "doDeleteAttr",
+            "setScale",
+            "doUntil",
+            "if_do_andpauseall*pause************",
+            "doGlide",
+            "changeEffect",
+            "clearEffects",
+            "gotoXY",
+            "doSayFor",
+            "doRun",
+            "doGotoObject",
+            "doFaceTowards",
+            "evaluateCustomBlock",
+            "ignore_",
+            "doSetFastTracking",
+            "createClone",
+            "show",
+            "changeScale",
+            "removeClone",
+            "doPlaySoundUntilDone",
+            "changeYPosition",
+            "setSize",
+            "alert",
+            "throw_",
+            "turnLeft",
+            "doStamp",
+            "doScreenshot",
+            "doPlayNote",
+            "setEffect",
+            "doSetVar",
+            "doMapStringCode",
+            "doReport",
+            "setHeading",
+            "clear",
+            "doStopOthers",
+            "tell_to_",
+            "fork",
+            "doResetTimer",
+            "setColor",
+            "catch__",
+            "doReplaceInList"
+        ],
+        "HAT": [
+            "receiveCondition",
+            "receiveInteraction",
+            "receiveMessage",
+            "receiveOnClone",
+            "receiveKey",
+            "receiveGo"
+        ]
+    },
+    "grammar_domain": "Snap!"
+}

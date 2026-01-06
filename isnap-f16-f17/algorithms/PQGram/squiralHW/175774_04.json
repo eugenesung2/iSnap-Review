@@ -1,0 +1,171 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "417",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "id": "37",
+                            "type": "clear"
+                        },
+                        "2": {
+                            "id": "38",
+                            "type": "up"
+                        },
+                        "3": {
+                            "children": {
+                                "0": {
+                                    "type": "literal",
+                                    "value": "0"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "0"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "56",
+                            "type": "gotoXY"
+                        },
+                        "4": {
+                            "id": "57",
+                            "type": "down"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {"0": {
+                        "children": {
+                            "0": {
+                                "children": {
+                                    "0": {
+                                        "id": "433",
+                                        "type": "var",
+                                        "value": "side"
+                                    },
+                                    "1": {
+                                        "type": "literal",
+                                        "value": "150"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1"
+                                ],
+                                "id": "432",
+                                "type": "reportLessThan"
+                            },
+                            "1": {
+                                "children": {
+                                    "0": {
+                                        "children": {"0": {
+                                            "id": "435",
+                                            "type": "var",
+                                            "value": "side"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "id": "434",
+                                        "type": "forward"
+                                    },
+                                    "1": {
+                                        "children": {"0": {
+                                            "type": "literal",
+                                            "value": "90"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "id": "436",
+                                        "type": "turn"
+                                    },
+                                    "2": {
+                                        "children": {"0": {
+                                            "children": {
+                                                "0": {
+                                                    "type": "literal",
+                                                    "value": "2"
+                                                },
+                                                "1": {
+                                                    "id": "439",
+                                                    "type": "var",
+                                                    "value": "side"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "438",
+                                            "type": "reportSum"
+                                        }},
+                                        "childrenOrder": ["0"],
+                                        "id": "437",
+                                        "type": "evaluateCustomBlock",
+                                        "value": "squareSpiral %s"
+                                    }
+                                },
+                                "childrenOrder": [
+                                    "0",
+                                    "1",
+                                    "2"
+                                ],
+                                "type": "script"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "id": "431",
+                        "type": "doIf"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "side"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1"
+            ],
+            "id": "1eabb93c-e35d-407a-a068-e39f479348c9",
+            "type": "customBlock",
+            "value": "squareSpiral %s"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1"
+    ],
+    "weight": 1,
+    "id": "635f87ad-01db-462c-a9ff-77b55b731e9e",
+    "type": "Snap!shot"
+}

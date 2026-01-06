@@ -1,0 +1,205 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {
+                    "0": {
+                        "children": {
+                            "0": {
+                                "id": "207",
+                                "type": "receiveGo"
+                            },
+                            "1": {
+                                "children": {"0": {
+                                    "type": "literal",
+                                    "value": "1"
+                                }},
+                                "childrenOrder": ["0"],
+                                "id": "206",
+                                "type": "evaluateCustomBlock",
+                                "value": "Squiral Rotations %s"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "type": "script"
+                    },
+                    "1": {
+                        "children": {"0": {
+                            "children": {"0": {
+                                "type": "literal",
+                                "value": "90"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "233",
+                            "type": "setHeading"
+                        }},
+                        "childrenOrder": ["0"],
+                        "type": "script"
+                    },
+                    "2": {
+                        "children": {"0": {
+                            "id": "234",
+                            "type": "clear"
+                        }},
+                        "childrenOrder": ["0"],
+                        "type": "script"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1",
+                    "2"
+                ],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {"type": "script"},
+                "1": {
+                    "type": "varDec",
+                    "value": "times"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1"
+            ],
+            "id": "2c011123-2122-4c83-9310-b69ab394c93a",
+            "type": "customBlock",
+            "value": "Repeat %s"
+        },
+        "2": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "id": "338",
+                            "type": "down"
+                        },
+                        "1": {
+                            "children": {
+                                "0": {
+                                    "id": "340",
+                                    "type": "var",
+                                    "value": "Rotations"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "children": {"0": {
+                                                "type": "var",
+                                                "value": "X"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "341",
+                                            "type": "forward"
+                                        },
+                                        "1": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "342",
+                                            "type": "turn"
+                                        },
+                                        "2": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "10"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "343",
+                                            "type": "forward"
+                                        },
+                                        "3": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "344",
+                                            "type": "turn"
+                                        },
+                                        "4": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "15"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "345",
+                                            "type": "forward"
+                                        },
+                                        "5": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "346",
+                                            "type": "turn"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5"
+                                    ],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "339",
+                            "type": "doRepeat"
+                        },
+                        "2": {
+                            "id": "349",
+                            "type": "up"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "Rotations"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1"
+            ],
+            "id": "2cccfd64-6110-4312-975d-746f6a55faaa",
+            "type": "customBlock",
+            "value": "Squiral Rotations %s"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "id": "594feefd-3dd0-4573-9162-3872621cde12",
+    "type": "Snap!shot",
+    "error": 0.03413928190651863
+}

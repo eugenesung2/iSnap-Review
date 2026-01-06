@@ -1,0 +1,91 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {
+                    "0": {
+                        "children": {
+                            "0": {
+                                "id": "207",
+                                "type": "receiveGo"
+                            },
+                            "1": {
+                                "children": {"0": {
+                                    "type": "literal",
+                                    "value": "1"
+                                }},
+                                "childrenOrder": ["0"],
+                                "id": "206",
+                                "type": "evaluateCustomBlock",
+                                "value": "Squiral Rotations %s"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "type": "script"
+                    },
+                    "1": {
+                        "children": {"0": {
+                            "children": {"0": {
+                                "type": "literal",
+                                "value": "90"
+                            }},
+                            "childrenOrder": ["0"],
+                            "id": "233",
+                            "type": "setHeading"
+                        }},
+                        "childrenOrder": ["0"],
+                        "type": "script"
+                    },
+                    "2": {
+                        "children": {"0": {
+                            "id": "234",
+                            "type": "clear"
+                        }},
+                        "childrenOrder": ["0"],
+                        "type": "script"
+                    }
+                },
+                "childrenOrder": [
+                    "0",
+                    "1",
+                    "2"
+                ],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {"type": "script"},
+                "1": {
+                    "type": "varDec",
+                    "value": "times"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1"
+            ],
+            "id": "2c011123-2122-4c83-9310-b69ab394c93a",
+            "type": "customBlock",
+            "value": "Repeat %s"
+        },
+        "2": {"type": "varDec"}
+    },
+    "childrenOrder": [
+        "0",
+        "1",
+        "2"
+    ],
+    "weight": 1,
+    "id": "594feefd-3dd0-4573-9162-3872621cde12",
+    "type": "Snap!shot"
+}

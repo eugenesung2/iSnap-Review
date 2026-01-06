@@ -1,0 +1,171 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {"0": {
+                        "children": {
+                            "0": {
+                                "type": "literal",
+                                "value": "5"
+                            },
+                            "1": {
+                                "type": "literal",
+                                "value": "10"
+                            }
+                        },
+                        "childrenOrder": [
+                            "0",
+                            "1"
+                        ],
+                        "id": "300",
+                        "type": "evaluateCustomBlock",
+                        "value": "Squiral Rotations %s Inital length %s"
+                    }},
+                    "childrenOrder": ["0"],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "children": {
+                "0": {
+                    "children": {
+                        "0": {
+                            "id": "353",
+                            "type": "down"
+                        },
+                        "1": {
+                            "children": {
+                                "0": {
+                                    "type": "varMenu",
+                                    "value": "Inital length"
+                                },
+                                "1": {
+                                    "type": "literal",
+                                    "value": "0"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "354",
+                            "type": "doSetVar"
+                        },
+                        "2": {
+                            "children": {
+                                "0": {
+                                    "children": {
+                                        "0": {"type": "literal"},
+                                        "1": {
+                                            "id": "408",
+                                            "type": "var",
+                                            "value": "rotations"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "394",
+                                    "type": "reportProduct"
+                                },
+                                "1": {
+                                    "children": {
+                                        "0": {
+                                            "children": {"0": {
+                                                "id": "358",
+                                                "type": "var",
+                                                "value": "Inital length"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "357",
+                                            "type": "forward"
+                                        },
+                                        "1": {
+                                            "children": {"0": {
+                                                "type": "literal",
+                                                "value": "90"
+                                            }},
+                                            "childrenOrder": ["0"],
+                                            "id": "359",
+                                            "type": "turn"
+                                        },
+                                        "2": {
+                                            "children": {
+                                                "0": {
+                                                    "type": "varMenu",
+                                                    "value": "Inital length"
+                                                },
+                                                "1": {
+                                                    "type": "literal",
+                                                    "value": "20"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "360",
+                                            "type": "doChangeVar"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1",
+                                        "2"
+                                    ],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1"
+                            ],
+                            "id": "355",
+                            "type": "doRepeat"
+                        },
+                        "3": {
+                            "id": "361",
+                            "type": "up"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2",
+                        "3"
+                    ],
+                    "type": "script"
+                },
+                "1": {
+                    "type": "varDec",
+                    "value": "rotations"
+                }
+            },
+            "childrenOrder": [
+                "0",
+                "1"
+            ],
+            "id": "45279125-95f0-43f7-aa34-7d68191376bc",
+            "type": "customBlock",
+            "value": "Squiral Rotations %s"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1"
+    ],
+    "weight": 0.1,
+    "id": "3bf3850c-e95d-4f3d-a114-8e6082a7397b",
+    "type": "Snap!shot"
+}

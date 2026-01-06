@@ -1,0 +1,110 @@
+{
+    "children": {
+        "0": {
+            "children": {"0": {
+                "children": {"0": {
+                    "children": {
+                        "0": {
+                            "id": "189",
+                            "type": "receiveGo"
+                        },
+                        "1": {
+                            "children": {"0": {"type": "literal"}},
+                            "childrenOrder": ["0"],
+                            "id": "190",
+                            "type": "doAsk"
+                        },
+                        "2": {
+                            "children": {
+                                "0": {
+                                    "children": {
+                                        "0": {
+                                            "id": "194",
+                                            "type": "getLastAnswer"
+                                        },
+                                        "1": {
+                                            "children": {
+                                                "0": {
+                                                    "type": "literal",
+                                                    "value": "1"
+                                                },
+                                                "1": {
+                                                    "type": "literal",
+                                                    "value": "10"
+                                                }
+                                            },
+                                            "childrenOrder": [
+                                                "0",
+                                                "1"
+                                            ],
+                                            "id": "193",
+                                            "type": "reportRandom"
+                                        }
+                                    },
+                                    "childrenOrder": [
+                                        "0",
+                                        "1"
+                                    ],
+                                    "id": "192",
+                                    "type": "reportEquals"
+                                },
+                                "1": {
+                                    "children": {"0": {
+                                        "children": {"0": {"type": "literal"}},
+                                        "childrenOrder": ["0"],
+                                        "id": "195",
+                                        "type": "bubble"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "type": "script"
+                                },
+                                "2": {
+                                    "children": {"0": {
+                                        "children": {"0": {"type": "literal"}},
+                                        "childrenOrder": ["0"],
+                                        "id": "196",
+                                        "type": "bubble"
+                                    }},
+                                    "childrenOrder": ["0"],
+                                    "type": "script"
+                                }
+                            },
+                            "childrenOrder": [
+                                "0",
+                                "1",
+                                "2"
+                            ],
+                            "id": "191",
+                            "type": "doAsk"
+                        }
+                    },
+                    "childrenOrder": [
+                        "0",
+                        "1",
+                        "2"
+                    ],
+                    "type": "script"
+                }},
+                "childrenOrder": ["0"],
+                "id": "Sprite",
+                "type": "sprite",
+                "value": "Sprite"
+            }},
+            "childrenOrder": ["0"],
+            "id": "stage",
+            "type": "stage",
+            "value": "Stage"
+        },
+        "1": {
+            "type": "varDec",
+            "value": "X"
+        }
+    },
+    "childrenOrder": [
+        "0",
+        "1"
+    ],
+    "weight": 1,
+    "id": "06bd0428-5964-42f1-b669-e9b4404f4521",
+    "type": "Snap!shot"
+}
