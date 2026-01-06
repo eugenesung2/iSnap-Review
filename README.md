@@ -38,10 +38,10 @@ The datasets referenced within the repository originate from the following sourc
 
 
 ## Miscelaneous Resources/Links
-https://isnap.csc.ncsu.edu/public/isnap/#hints
-https://cssplice.org/progsnap2/index.html
-https://gist.github.com/thomaswp/8c8ef19bd5203ce8b6cd4d6df5e3db44
+- https://isnap.csc.ncsu.edu/public/isnap/#hints
+- https://cssplice.org/progsnap2/index.html
+- https://gist.github.com/thomaswp/8c8ef19bd5203ce8b6cd4d6df5e3db44
 
-https://dl.acm.org/doi/epdf/10.1145/2960310.2960333
-https://dl.acm.org/doi/epdf/10.1145/3341525.3387373
-https://link.springer.com/article/10.1007/s40593-015-0070-z
+- https://dl.acm.org/doi/epdf/10.1145/2960310.2960333
+- https://dl.acm.org/doi/epdf/10.1145/3341525.3387373
+- https://link.springer.com/article/10.1007/s40593-015-0070-z
